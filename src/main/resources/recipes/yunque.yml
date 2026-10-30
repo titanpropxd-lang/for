@@ -1,0 +1,1220 @@
+# Generado por tools/gen_recipes.py — estación: yunque
+recetas:
+  remaches:
+    resultado: "remaches"
+    cantidad: 6
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 1
+    tiempo: 3
+    xp: 7
+    xp_raza: 0
+    categoria: "Materiales"
+    ingredientes: {"lingote_cobre": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  hoja_sin_pulir:
+    resultado: "hoja_sin_pulir"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Materiales"
+    ingredientes: {"lingote_hierro_forjado": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  molde_espada:
+    resultado: "molde_espada"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Moldes"
+    ingredientes: {"vanilla:CLAY_BALL": 4, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  molde_hacha:
+    resultado: "molde_hacha"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Moldes"
+    ingredientes: {"vanilla:CLAY_BALL": 4, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  molde_lanza:
+    resultado: "molde_lanza"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Moldes"
+    ingredientes: {"vanilla:CLAY_BALL": 4, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  molde_maza:
+    resultado: "molde_maza"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Moldes"
+    ingredientes: {"vanilla:CLAY_BALL": 4, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  molde_daga:
+    resultado: "molde_daga"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Moldes"
+    ingredientes: {"vanilla:CLAY_BALL": 4, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  espada_hierro_forjado:
+    resultado: "espada_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"hoja_sin_pulir": 1, "lingote_hierro_forjado": 2, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: ["molde_espada"]
+    raza: []
+    linaje: 0
+  espada_acero:
+    resultado: "espada_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"hoja_sin_pulir": 1, "lingote_acero": 2, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: ["molde_espada"]
+    raza: []
+    linaje: 0
+  espada_acero_negro:
+    resultado: "espada_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 3, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  espada_mithril:
+    resultado: "espada_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 3, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  hacha_hierro_forjado:
+    resultado: "hacha_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"lingote_hierro_forjado": 3, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: ["molde_hacha"]
+    raza: []
+    linaje: 0
+  hacha_acero:
+    resultado: "hacha_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"lingote_acero": 3, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: ["molde_hacha"]
+    raza: []
+    linaje: 0
+  hacha_acero_negro:
+    resultado: "hacha_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 3, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  hacha_mithril:
+    resultado: "hacha_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 3, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  lanza_hierro_forjado:
+    resultado: "lanza_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"hoja_sin_pulir": 1, "lingote_hierro_forjado": 1, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: ["molde_lanza"]
+    raza: []
+    linaje: 0
+  lanza_acero:
+    resultado: "lanza_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"hoja_sin_pulir": 1, "lingote_acero": 1, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: ["molde_lanza"]
+    raza: []
+    linaje: 0
+  lanza_acero_negro:
+    resultado: "lanza_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 2, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  lanza_mithril:
+    resultado: "lanza_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 2, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  pala_guerra_hierro_forjado:
+    resultado: "pala_guerra_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"lingote_hierro_forjado": 2, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  pala_guerra_acero:
+    resultado: "pala_guerra_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"lingote_acero": 2, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  pala_guerra_acero_negro:
+    resultado: "pala_guerra_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 2, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  pala_guerra_mithril:
+    resultado: "pala_guerra_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 2, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  pico_guerra_hierro_forjado:
+    resultado: "pico_guerra_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"lingote_hierro_forjado": 3, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  pico_guerra_acero:
+    resultado: "pico_guerra_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"lingote_acero": 3, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  pico_guerra_acero_negro:
+    resultado: "pico_guerra_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 3, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  pico_guerra_mithril:
+    resultado: "pico_guerra_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 3, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  gran_hacha_hierro_forjado:
+    resultado: "gran_hacha_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 5
+    xp: 34
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"lingote_hierro_forjado": 6, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: []
+    raza: ["orco"]
+    linaje: 0
+  gran_hacha_acero:
+    resultado: "gran_hacha_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 8
+    xp: 61
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"lingote_acero": 6, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: []
+    raza: ["orco"]
+    linaje: 0
+  gran_hacha_acero_negro:
+    resultado: "gran_hacha_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 11
+    xp: 88
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 6, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  gran_hacha_mithril:
+    resultado: "gran_hacha_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 14
+    xp: 115
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 6, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  espadon_hierro_forjado:
+    resultado: "espadon_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 5
+    xp: 34
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"hoja_sin_pulir": 1, "lingote_hierro_forjado": 4, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: []
+    raza: ["orco"]
+    linaje: 0
+  espadon_acero:
+    resultado: "espadon_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 8
+    xp: 61
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"hoja_sin_pulir": 1, "lingote_acero": 4, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: []
+    raza: ["orco"]
+    linaje: 0
+  espadon_acero_negro:
+    resultado: "espadon_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 11
+    xp: 88
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 5, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  espadon_mithril:
+    resultado: "espadon_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 14
+    xp: 115
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 5, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  daga_hierro_forjado:
+    resultado: "daga_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"hoja_sin_pulir": 1, "lingote_hierro_forjado": 1, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: ["molde_daga"]
+    raza: []
+    linaje: 0
+  daga_acero:
+    resultado: "daga_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"hoja_sin_pulir": 1, "lingote_acero": 1, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: ["molde_daga"]
+    raza: []
+    linaje: 0
+  daga_acero_negro:
+    resultado: "daga_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 2, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  daga_mithril:
+    resultado: "daga_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 2, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  azada_guerra_hierro_forjado:
+    resultado: "azada_guerra_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"lingote_hierro_forjado": 2, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  azada_guerra_acero:
+    resultado: "azada_guerra_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"lingote_acero": 2, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  azada_guerra_acero_negro:
+    resultado: "azada_guerra_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 2, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  azada_guerra_mithril:
+    resultado: "azada_guerra_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 2, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  guadana_hierro_forjado:
+    resultado: "guadana_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"hoja_sin_pulir": 1, "lingote_hierro_forjado": 2, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  guadana_acero:
+    resultado: "guadana_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"hoja_sin_pulir": 1, "lingote_acero": 2, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  guadana_acero_negro:
+    resultado: "guadana_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 3, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  guadana_mithril:
+    resultado: "guadana_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 3, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  maza_hierro_forjado:
+    resultado: "maza_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"lingote_hierro_forjado": 4, "empunadura": 1, "remaches": 2, "fuel": 1}
+    no_consumir: ["molde_maza"]
+    raza: []
+    linaje: 0
+  maza_acero:
+    resultado: "maza_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"lingote_acero": 4, "empunadura": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: ["molde_maza"]
+    raza: []
+    linaje: 0
+  maza_acero_negro:
+    resultado: "maza_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 4, "empunadura": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  maza_mithril:
+    resultado: "maza_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 4, "empunadura": 1, "mat_cristal_cueva": 1, "madera_noble": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  cetro_hierro_forjado:
+    resultado: "cetro_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Armas"
+    ingredientes: {"lingote_hierro_forjado": 2, "madera_noble": 1, "gema_amatista": 1, "remaches": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  cetro_acero:
+    resultado: "cetro_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 4
+    categoria: "Armas"
+    ingredientes: {"lingote_acero": 2, "madera_noble": 1, "gema_zafiro": 1, "remaches": 2, "hilo": 1, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  cetro_acero_negro:
+    resultado: "cetro_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 12
+    categoria: "Armas"
+    ingredientes: {"lingote_acero_negro": 2, "madera_noble": 1, "gema_onice": 1, "mat_montana": 1, "remaches": 2, "fuel": 3}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  cetro_mithril:
+    resultado: "cetro_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 30
+    categoria: "Armas"
+    ingredientes: {"lingote_mithril": 2, "madera_noble": 2, "gema_rubi": 1, "mat_cristal_cueva": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  escudo_hierro:
+    resultado: "escudo_hierro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 12
+    tiempo: 6
+    xp: 27
+    xp_raza: 0
+    categoria: "Escudos"
+    ingredientes: {"madera_noble": 1, "placa_hierro_forjado": 3, "remaches": 4, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  escudo_acero:
+    resultado: "escudo_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 22
+    tiempo: 6
+    xp: 45
+    xp_raza: 0
+    categoria: "Escudos"
+    ingredientes: {"madera_noble": 1, "placa_acero": 3, "remaches": 4, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  escudo_mithril:
+    resultado: "escudo_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 25
+    categoria: "Escudos"
+    ingredientes: {"mat_madera_ancestral": 1, "placa_mithril": 3, "mat_cristal_cueva": 1, "remaches": 4, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  tridente_marea:
+    resultado: "tridente_marea"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 25
+    tiempo: 6
+    xp: 50
+    xp_raza: 15
+    categoria: "Armas"
+    ingredientes: {"vanilla:TRIDENT": 1, "lingote_plata": 2, "mat_perla_abisal": 1, "fuel": 2}
+    no_consumir: []
+    raza: ["triton"]
+    linaje: 0
+  tridente_abisal:
+    resultado: "tridente_abisal"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 35
+    categoria: "Armas"
+    ingredientes: {"vanilla:TRIDENT": 1, "lingote_mithril": 2, "mat_perla_abisal": 2, "mat_cristal_cueva": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["triton"]
+    linaje: 0
+  casco_guardia:
+    resultado: "casco_guardia"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 12
+    tiempo: 6
+    xp: 27
+    xp_raza: 0
+    categoria: "Armaduras"
+    ingredientes: {"placa_hierro_forjado": 3, "hilo": 1, "remaches": 4, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  peto_guardia:
+    resultado: "peto_guardia"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 12
+    tiempo: 6
+    xp: 43
+    xp_raza: 0
+    categoria: "Armaduras"
+    ingredientes: {"placa_hierro_forjado": 5, "hilo": 1, "remaches": 4, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  grebas_guardia:
+    resultado: "grebas_guardia"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 12
+    tiempo: 6
+    xp: 35
+    xp_raza: 0
+    categoria: "Armaduras"
+    ingredientes: {"placa_hierro_forjado": 4, "hilo": 1, "remaches": 4, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  botas_guardia:
+    resultado: "botas_guardia"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 12
+    tiempo: 6
+    xp: 24
+    xp_raza: 0
+    categoria: "Armaduras"
+    ingredientes: {"placa_hierro_forjado": 3, "hilo": 1, "remaches": 4, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  casco_caballero:
+    resultado: "casco_caballero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 25
+    tiempo: 6
+    xp: 50
+    xp_raza: 3
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 4, "cuero_curtido": 1, "remaches": 4, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  peto_caballero:
+    resultado: "peto_caballero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 25
+    tiempo: 6
+    xp: 80
+    xp_raza: 3
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 7, "cuero_curtido": 1, "remaches": 4, "fuel": 2, "mat_montana": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  grebas_caballero:
+    resultado: "grebas_caballero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 25
+    tiempo: 6
+    xp: 65
+    xp_raza: 3
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 5, "cuero_curtido": 1, "remaches": 4, "fuel": 2, "mat_montana": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  botas_caballero:
+    resultado: "botas_caballero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 25
+    tiempo: 6
+    xp: 45
+    xp_raza: 3
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 3, "cuero_curtido": 1, "remaches": 4, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  casco_barbaro:
+    resultado: "casco_barbaro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 3
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 3, "cuero_curtido": 3, "remaches": 6, "fuel": 2, "mat_hueso_helado": 1}
+    no_consumir: []
+    raza: ["orco", "draconiano"]
+    linaje: 0
+  peto_barbaro:
+    resultado: "peto_barbaro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 94
+    xp_raza: 3
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 6, "cuero_curtido": 3, "remaches": 6, "fuel": 2, "mat_hueso_helado": 1}
+    no_consumir: []
+    raza: ["orco", "draconiano"]
+    linaje: 0
+  grebas_barbaro:
+    resultado: "grebas_barbaro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 76
+    xp_raza: 3
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 5, "cuero_curtido": 3, "remaches": 6, "fuel": 2}
+    no_consumir: []
+    raza: ["orco", "draconiano"]
+    linaje: 0
+  botas_barbaro:
+    resultado: "botas_barbaro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 30
+    tiempo: 9
+    xp: 53
+    xp_raza: 3
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 3, "cuero_curtido": 3, "remaches": 6, "fuel": 2}
+    no_consumir: []
+    raza: ["orco", "draconiano"]
+    linaje: 0
+  casco_escamas:
+    resultado: "casco_escamas"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 35
+    tiempo: 9
+    xp: 68
+    xp_raza: 10
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 3, "mat_escamas_volcan": 2, "remaches": 4, "fuel": 3}
+    no_consumir: []
+    raza: ["draconiano"]
+    linaje: 0
+  peto_escamas:
+    resultado: "peto_escamas"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 35
+    tiempo: 9
+    xp: 108
+    xp_raza: 10
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 6, "mat_escamas_volcan": 4, "remaches": 4, "fuel": 3}
+    no_consumir: []
+    raza: ["draconiano"]
+    linaje: 0
+  grebas_escamas:
+    resultado: "grebas_escamas"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 35
+    tiempo: 9
+    xp: 88
+    xp_raza: 10
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 5, "mat_escamas_volcan": 3, "remaches": 4, "fuel": 3}
+    no_consumir: []
+    raza: ["draconiano"]
+    linaje: 0
+  botas_escamas:
+    resultado: "botas_escamas"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 35
+    tiempo: 9
+    xp: 61
+    xp_raza: 10
+    categoria: "Armaduras"
+    ingredientes: {"placa_acero": 3, "mat_escamas_volcan": 2, "remaches": 4, "fuel": 3}
+    no_consumir: []
+    raza: ["draconiano"]
+    linaje: 0
+  casco_abisal:
+    resultado: "casco_abisal"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 35
+    tiempo: 9
+    xp: 68
+    xp_raza: 10
+    categoria: "Armaduras"
+    ingredientes: {"placa_plata": 3, "mat_perla_abisal": 1, "seda": 2, "fuel": 2}
+    no_consumir: []
+    raza: ["triton"]
+    linaje: 0
+  peto_abisal:
+    resultado: "peto_abisal"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 35
+    tiempo: 9
+    xp: 108
+    xp_raza: 10
+    categoria: "Armaduras"
+    ingredientes: {"placa_plata": 5, "mat_perla_abisal": 2, "seda": 2, "fuel": 2}
+    no_consumir: []
+    raza: ["triton"]
+    linaje: 0
+  grebas_abisal:
+    resultado: "grebas_abisal"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 35
+    tiempo: 9
+    xp: 88
+    xp_raza: 10
+    categoria: "Armaduras"
+    ingredientes: {"placa_plata": 4, "mat_perla_abisal": 2, "seda": 2, "fuel": 2}
+    no_consumir: []
+    raza: ["triton"]
+    linaje: 0
+  botas_abisal:
+    resultado: "botas_abisal"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 35
+    tiempo: 9
+    xp: 61
+    xp_raza: 10
+    categoria: "Armaduras"
+    ingredientes: {"placa_plata": 3, "mat_perla_abisal": 1, "seda": 2, "fuel": 2}
+    no_consumir: []
+    raza: ["triton"]
+    linaje: 0
+  martillo_hierro:
+    resultado: "martillo_hierro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 1
+    tiempo: 3
+    xp: 7
+    xp_raza: 0
+    categoria: "Herramientas"
+    ingredientes: {"vanilla:IRON_INGOT": 3, "empunadura": 1, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  martillo_acero:
+    resultado: "martillo_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 0
+    categoria: "Herramientas"
+    ingredientes: {"lingote_acero": 3, "empunadura": 1, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  martillo_mithril:
+    resultado: "martillo_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 0
+    categoria: "Herramientas"
+    ingredientes: {"lingote_mithril": 3, "empunadura": 1, "mat_cristal_cueva": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  tenazas:
+    resultado: "tenazas"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 1
+    tiempo: 3
+    xp: 7
+    xp_raza: 0
+    categoria: "Herramientas"
+    ingredientes: {"vanilla:IRON_INGOT": 2, "vanilla:STICK": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  tenazas_acero:
+    resultado: "tenazas_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 0
+    categoria: "Herramientas"
+    ingredientes: {"lingote_acero": 2, "hilo": 1, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  piedra_afilar_basica:
+    resultado: "piedra_afilar_basica"
+    cantidad: 2
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Consumibles"
+    ingredientes: {"vanilla:FLINT": 2, "vanilla:COAL": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  piedra_afilar_fina:
+    resultado: "piedra_afilar_fina"
+    cantidad: 2
+    oficio: "herreria"
+    estacion: "yunque"
+    nivel: 25
+    tiempo: 6
+    xp: 50
+    xp_raza: 0
+    categoria: "Consumibles"
+    ingredientes: {"vanilla:FLINT": 2, "gema_topacio": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0

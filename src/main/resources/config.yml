@@ -1,0 +1,166 @@
+# =============================================================
+#  Forja - configuración principal (recargable con /forja recargar)
+# =============================================================
+general:
+  debug: false
+
+seguridad:
+  # Se genera sola. Firma el "Forjado por X" para que nadie pueda falsificarlo. NO la compartas ni la cambies.
+  secreto: ""
+
+forja:
+  distancia_max: 6.0          # bloques: si te alejas más, la forja se interrumpe (se devuelven los materiales)
+  tiempo_mult: 1.0            # multiplica TODOS los tiempos de forja (0.5 = el doble de rápido)
+  dar_xp_raza: true           # da XP de raza (rz_qxp) al forjar piezas difíciles (campo xp_raza de la receta)
+  xp_raza_mult: 1.0
+  xp_raza_max_por_entrega: 5000
+
+oficios:
+  nivel_max: 50
+  # XP necesaria para pasar del nivel N al N+1 = N * xp_a + xp_b   (curva media)
+  xp_a: 25
+  xp_b: 50
+  xp_mejorar: 10     # se multiplica por el nivel de mejora alcanzado
+  xp_reparar: 6
+  xp_desguazar: 4
+
+calidad:
+  # Orden: Tosca, Común, Buena, Excelente, Maestra
+  mult_stats: [0.85, 1.0, 1.07, 1.15, 1.25]
+  mult_durabilidad: [0.8, 1.0, 1.1, 1.25, 1.5]
+  nivel_min: [0, 0, 5, 15, 30]        # nivel de oficio mínimo para poder obtener cada calidad
+  por_nivel_oficio: 1.2               # puntos de "score" por nivel de oficio
+  por_5_niveles_raza: 2.0             # puntos por cada 5 niveles de raza (rz_lvl)
+  dificultad_por_nivel_receta: 0.5    # recetas más difíciles dan menos calidad
+  pesos:
+    tosca_base: 40
+    tosca_por_score: 0.7
+    tosca_min: 5
+    comun: 50
+    buena_base: 5
+    buena_por_score: 0.45
+    excelente_inicio: 10
+    excelente_por_score: 0.3
+    maestra_inicio: 30
+    maestra_por_score: 0.15
+
+mejora:
+  max: 5
+  bonus_stat_por_nivel: 0.04          # +4% daño/defensa por cada +1
+  nivel_min_oficio: [1, 10, 20, 30, 40]
+  costes: [2, 3, 4, 6, 8]             # cantidad de material por cada paso (+1..+5)
+  fuel: 1                             # carbón extra en oficios de herrería
+  prob: [95, 85, 70, 50, 30]          # % de éxito base por paso
+  prob_por_nivel_oficio: 0.3
+  fallo_baja_niveles: 1               # si falla, baja este nº de niveles (nunca destruye el item)
+  material:
+    defecto: madera_noble
+    tier:
+      hierro_forjado: lingote_hierro_forjado
+      acero: lingote_acero
+      acero_negro: lingote_acero_negro
+      mithril: lingote_mithril
+    estilo:
+      explorador: cuero_curtido
+      mercenario: placa_bronce
+      guardia: placa_hierro_forjado
+      caballero: placa_acero
+      barbaro: placa_acero
+      escamas: mat_escamas_volcan
+      abisal: mat_perla_abisal
+    item:
+      escudo_hierro: placa_hierro_forjado
+      escudo_acero: placa_acero
+      escudo_mithril: placa_mithril
+      ballesta_acero: lingote_acero
+      tridente_marea: lingote_plata
+      tridente_abisal: lingote_mithril
+
+reparar:
+  max_materiales: 4        # materiales necesarios para reparar un item totalmente roto
+
+desguace:
+  porcentaje: 0.5          # fracción de materiales devuelta
+  bonus_por_calidad: 0.05  # +5% por cada nivel de calidad sobre Tosca
+
+razas_ajenas:
+  permitir: true           # un jugador con raza puede usar recetas de otra raza, con penalización
+  mult_materiales: 1.5     # +50% de materiales
+  pasos_calidad: 1         # -1 nivel de calidad
+  sin_raza_solo_basicas: true   # sin raza (rz_race=0) solo recetas básicas
+
+accesorios:
+  caer_al_morir: false
+
+estaciones:
+  proteger_explosiones: true
+
+trim:
+  # trim_material del namespace de tu pack de armaduras (el que usa tu datapack RPG)
+  material: "rpgarm:rpg"
+
+# Munición: multiplicador de daño
+flechas:
+  flecha_elfica: 1.3
+  flecha_acero: 1.2
+
+# Durabilidad (se multiplica por la calidad). Lo no listado usa la durabilidad vanilla del item base.
+durabilidad:
+  tier:
+    hierro_forjado: 320
+    acero: 600
+    acero_negro: 1000
+    mithril: 1600
+  estilo:
+    explorador: 160
+    mercenario: 240
+    guardia: 340
+    caballero: 480
+    barbaro: 520
+    escamas: 560
+    abisal: 540
+  pieza:
+    casco: 0.7
+    peto: 1.0
+    grebas: 0.9
+    botas: 0.6
+  item:
+    escudo_madera: 220
+    escudo_hierro: 420
+    escudo_acero: 700
+    escudo_mithril: 1400
+    arco_corto: 380
+    arco_largo: 520
+    arco_elfico: 800
+    ballesta_madera: 400
+    ballesta_acero: 700
+    tridente_marea: 520
+    tridente_abisal: 900
+
+# Comandos de consola al forjar (para BeautyQuests, logros, etc.). Placeholders: {jugador} {item} {calidad} {oficio}
+al_forjar_comandos: []
+#  - "scoreboard players add {jugador} forja_total 1"
+
+# Recetas de crafteo VANILLA solo para conseguir las estaciones iniciales (ingredientes 100% vanilla).
+recetas_vanilla:
+  estacion_yunque:
+    forma: ["III", "IAI", "III"]
+    ingredientes: {I: IRON_INGOT, A: ANVIL}
+  estacion_forja:
+    forma: ["BBB", "BFB", "BBB"]
+    ingredientes: {B: BRICK, F: BLAST_FURNACE}
+  estacion_armeria:
+    forma: ["SSS", "SLS", "SSS"]
+    ingredientes: {S: STRING, L: LOOM}
+  estacion_carpinteria:
+    forma: ["LLL", "LFL", "LLL"]
+    ingredientes: {L: OAK_LOG, F: FLETCHING_TABLE}
+  estacion_joyeria:
+    forma: ["GGG", "GSG", "GGG"]
+    ingredientes: {G: GOLD_INGOT, S: SMITHING_TABLE}
+  estacion_alquimia:
+    forma: ["BBB", "BSB", "BBB"]
+    ingredientes: {B: GLASS_BOTTLE, S: BREWING_STAND}
+  estacion_cocina:
+    forma: ["BBB", "BSB", "BBB"]
+    ingredientes: {B: BRICK, S: SMOKER}

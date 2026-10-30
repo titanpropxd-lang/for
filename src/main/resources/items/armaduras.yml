@@ -1,0 +1,406 @@
+# Generado por tools/gen_items.py — categoría: armadura
+items:
+  casco_explorador:
+    nombre: "Casco de Explorador"
+    categoria: "armadura"
+    base: "leather_helmet"
+    cmd: 5300
+    lore: ["Armadura estilo explorador."]
+    rareza: "comun"
+    oficio: "armeria"
+    nivel_req: 5
+    estilo: "explorador"
+    trim_pattern: "rpgarm:forja_explorador"
+    atributos: {defensa: 1.0, dureza: 0}
+    valor: 41
+    custom_data: {rz_item: "casco_explorador"}
+  peto_explorador:
+    nombre: "Peto de Explorador"
+    categoria: "armadura"
+    base: "leather_chestplate"
+    cmd: 5301
+    lore: ["Armadura estilo explorador."]
+    rareza: "comun"
+    oficio: "armeria"
+    nivel_req: 5
+    estilo: "explorador"
+    trim_pattern: "rpgarm:forja_explorador"
+    atributos: {defensa: 2.8, dureza: 0.7}
+    valor: 112
+    custom_data: {rz_item: "peto_explorador"}
+  grebas_explorador:
+    nombre: "Grebas de Explorador"
+    categoria: "armadura"
+    base: "leather_leggings"
+    cmd: 5302
+    lore: ["Armadura estilo explorador."]
+    rareza: "comun"
+    oficio: "armeria"
+    nivel_req: 5
+    estilo: "explorador"
+    trim_pattern: "rpgarm:forja_explorador"
+    atributos: {defensa: 2.1, dureza: 0.7}
+    valor: 83
+    custom_data: {rz_item: "grebas_explorador"}
+  botas_explorador:
+    nombre: "Botas de Explorador"
+    categoria: "armadura"
+    base: "leather_boots"
+    cmd: 5303
+    lore: ["Armadura estilo explorador."]
+    rareza: "comun"
+    oficio: "armeria"
+    nivel_req: 5
+    estilo: "explorador"
+    trim_pattern: "rpgarm:forja_explorador"
+    atributos: {defensa: 1.0, dureza: 0}
+    valor: 41
+    custom_data: {rz_item: "botas_explorador"}
+  casco_mercenario:
+    nombre: "Casco de Mercenario"
+    categoria: "armadura"
+    base: "golden_helmet"
+    cmd: 5304
+    lore: ["Armadura estilo mercenario."]
+    rareza: "comun"
+    oficio: "armeria"
+    nivel_req: 15
+    estilo: "mercenario"
+    trim_pattern: "rpgarm:forja_mercenario"
+    atributos: {defensa: 1.5, dureza: 0}
+    valor: 60
+    custom_data: {rz_item: "casco_mercenario"}
+  peto_mercenario:
+    nombre: "Peto de Mercenario"
+    categoria: "armadura"
+    base: "golden_chestplate"
+    cmd: 5305
+    lore: ["Armadura estilo mercenario."]
+    rareza: "comun"
+    oficio: "armeria"
+    nivel_req: 15
+    estilo: "mercenario"
+    trim_pattern: "rpgarm:forja_mercenario"
+    atributos: {defensa: 4.0, dureza: 1.0}
+    valor: 160
+    custom_data: {rz_item: "peto_mercenario"}
+  grebas_mercenario:
+    nombre: "Grebas de Mercenario"
+    categoria: "armadura"
+    base: "golden_leggings"
+    cmd: 5306
+    lore: ["Armadura estilo mercenario."]
+    rareza: "comun"
+    oficio: "armeria"
+    nivel_req: 15
+    estilo: "mercenario"
+    trim_pattern: "rpgarm:forja_mercenario"
+    atributos: {defensa: 3.0, dureza: 1.0}
+    valor: 120
+    custom_data: {rz_item: "grebas_mercenario"}
+  botas_mercenario:
+    nombre: "Botas de Mercenario"
+    categoria: "armadura"
+    base: "golden_boots"
+    cmd: 5307
+    lore: ["Armadura estilo mercenario."]
+    rareza: "comun"
+    oficio: "armeria"
+    nivel_req: 15
+    estilo: "mercenario"
+    trim_pattern: "rpgarm:forja_mercenario"
+    atributos: {defensa: 1.5, dureza: 0}
+    valor: 60
+    custom_data: {rz_item: "botas_mercenario"}
+  casco_guardia:
+    nombre: "Casco de Guardia"
+    categoria: "armadura"
+    base: "chainmail_helmet"
+    cmd: 5308
+    lore: ["Armadura estilo guardia."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 12
+    estilo: "guardia"
+    trim_pattern: "rpgarm:forja_guardia"
+    atributos: {defensa: 1.8, dureza: 0}
+    valor: 72
+    custom_data: {rz_item: "casco_guardia"}
+  peto_guardia:
+    nombre: "Peto de Guardia"
+    categoria: "armadura"
+    base: "chainmail_chestplate"
+    cmd: 5309
+    lore: ["Armadura estilo guardia."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 12
+    estilo: "guardia"
+    trim_pattern: "rpgarm:forja_guardia"
+    atributos: {defensa: 4.8, dureza: 1.2}
+    valor: 192
+    custom_data: {rz_item: "peto_guardia"}
+  grebas_guardia:
+    nombre: "Grebas de Guardia"
+    categoria: "armadura"
+    base: "chainmail_leggings"
+    cmd: 5310
+    lore: ["Armadura estilo guardia."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 12
+    estilo: "guardia"
+    trim_pattern: "rpgarm:forja_guardia"
+    atributos: {defensa: 3.6, dureza: 1.2}
+    valor: 144
+    custom_data: {rz_item: "grebas_guardia"}
+  botas_guardia:
+    nombre: "Botas de Guardia"
+    categoria: "armadura"
+    base: "chainmail_boots"
+    cmd: 5311
+    lore: ["Armadura estilo guardia."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 12
+    estilo: "guardia"
+    trim_pattern: "rpgarm:forja_guardia"
+    atributos: {defensa: 1.8, dureza: 0}
+    valor: 72
+    custom_data: {rz_item: "botas_guardia"}
+  casco_caballero:
+    nombre: "Casco de Caballero"
+    categoria: "armadura"
+    base: "iron_helmet"
+    cmd: 5312
+    lore: ["Armadura estilo caballero."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 25
+    estilo: "caballero"
+    trim_pattern: "rpgarm:forja_caballero"
+    atributos: {defensa: 2.1, dureza: 0}
+    valor: 83
+    custom_data: {rz_item: "casco_caballero"}
+  peto_caballero:
+    nombre: "Peto de Caballero"
+    categoria: "armadura"
+    base: "iron_chestplate"
+    cmd: 5313
+    lore: ["Armadura estilo caballero."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 25
+    estilo: "caballero"
+    trim_pattern: "rpgarm:forja_caballero"
+    atributos: {defensa: 5.6, dureza: 1.4}
+    valor: 224
+    custom_data: {rz_item: "peto_caballero"}
+  grebas_caballero:
+    nombre: "Grebas de Caballero"
+    categoria: "armadura"
+    base: "iron_leggings"
+    cmd: 5314
+    lore: ["Armadura estilo caballero."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 25
+    estilo: "caballero"
+    trim_pattern: "rpgarm:forja_caballero"
+    atributos: {defensa: 4.2, dureza: 1.4}
+    valor: 167
+    custom_data: {rz_item: "grebas_caballero"}
+  botas_caballero:
+    nombre: "Botas de Caballero"
+    categoria: "armadura"
+    base: "iron_boots"
+    cmd: 5315
+    lore: ["Armadura estilo caballero."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 25
+    estilo: "caballero"
+    trim_pattern: "rpgarm:forja_caballero"
+    atributos: {defensa: 2.1, dureza: 0}
+    valor: 83
+    custom_data: {rz_item: "botas_caballero"}
+  casco_barbaro:
+    nombre: "Casco de Bárbaro"
+    categoria: "armadura"
+    base: "netherite_helmet"
+    cmd: 5316
+    lore: ["Armadura estilo bárbaro."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    raza: ["orco", "draconiano"]
+    estilo: "barbaro"
+    trim_pattern: "rpgarm:forja_barbaro"
+    atributos: {defensa: 2.0, dureza: 0}
+    valor: 78
+    custom_data: {rz_item: "casco_barbaro"}
+  peto_barbaro:
+    nombre: "Peto de Bárbaro"
+    categoria: "armadura"
+    base: "netherite_chestplate"
+    cmd: 5317
+    lore: ["Armadura estilo bárbaro."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    raza: ["orco", "draconiano"]
+    estilo: "barbaro"
+    trim_pattern: "rpgarm:forja_barbaro"
+    atributos: {defensa: 5.2, dureza: 1.3}
+    valor: 208
+    custom_data: {rz_item: "peto_barbaro"}
+  grebas_barbaro:
+    nombre: "Grebas de Bárbaro"
+    categoria: "armadura"
+    base: "netherite_leggings"
+    cmd: 5318
+    lore: ["Armadura estilo bárbaro."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    raza: ["orco", "draconiano"]
+    estilo: "barbaro"
+    trim_pattern: "rpgarm:forja_barbaro"
+    atributos: {defensa: 3.9, dureza: 1.3}
+    valor: 156
+    custom_data: {rz_item: "grebas_barbaro"}
+  botas_barbaro:
+    nombre: "Botas de Bárbaro"
+    categoria: "armadura"
+    base: "netherite_boots"
+    cmd: 5319
+    lore: ["Armadura estilo bárbaro."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    raza: ["orco", "draconiano"]
+    estilo: "barbaro"
+    trim_pattern: "rpgarm:forja_barbaro"
+    atributos: {defensa: 2.0, dureza: 0}
+    valor: 78
+    custom_data: {rz_item: "botas_barbaro"}
+  casco_escamas:
+    nombre: "Casco de Escamas"
+    categoria: "armadura"
+    base: "netherite_helmet"
+    cmd: 5320
+    lore: ["Armadura estilo escamas."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 35
+    raza: ["draconiano"]
+    estilo: "escamas"
+    trim_pattern: "rpgarm:forja_escamas"
+    atributos: {defensa: 2.1, dureza: 0}
+    valor: 83
+    custom_data: {rz_item: "casco_escamas"}
+  peto_escamas:
+    nombre: "Peto de Escamas"
+    categoria: "armadura"
+    base: "netherite_chestplate"
+    cmd: 5321
+    lore: ["Armadura estilo escamas."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 35
+    raza: ["draconiano"]
+    estilo: "escamas"
+    trim_pattern: "rpgarm:forja_escamas"
+    atributos: {defensa: 5.6, dureza: 1.4}
+    valor: 224
+    custom_data: {rz_item: "peto_escamas"}
+  grebas_escamas:
+    nombre: "Grebas de Escamas"
+    categoria: "armadura"
+    base: "netherite_leggings"
+    cmd: 5322
+    lore: ["Armadura estilo escamas."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 35
+    raza: ["draconiano"]
+    estilo: "escamas"
+    trim_pattern: "rpgarm:forja_escamas"
+    atributos: {defensa: 4.2, dureza: 1.4}
+    valor: 167
+    custom_data: {rz_item: "grebas_escamas"}
+  botas_escamas:
+    nombre: "Botas de Escamas"
+    categoria: "armadura"
+    base: "netherite_boots"
+    cmd: 5323
+    lore: ["Armadura estilo escamas."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 35
+    raza: ["draconiano"]
+    estilo: "escamas"
+    trim_pattern: "rpgarm:forja_escamas"
+    atributos: {defensa: 2.1, dureza: 0}
+    valor: 83
+    custom_data: {rz_item: "botas_escamas"}
+  casco_abisal:
+    nombre: "Casco de Abisal"
+    categoria: "armadura"
+    base: "diamond_helmet"
+    cmd: 5324
+    lore: ["Armadura estilo abisal."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 35
+    raza: ["triton"]
+    estilo: "abisal"
+    trim_pattern: "rpgarm:forja_abisal"
+    atributos: {defensa: 2.0, dureza: 0}
+    valor: 78
+    custom_data: {rz_item: "casco_abisal"}
+  peto_abisal:
+    nombre: "Peto de Abisal"
+    categoria: "armadura"
+    base: "diamond_chestplate"
+    cmd: 5325
+    lore: ["Armadura estilo abisal."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 35
+    raza: ["triton"]
+    estilo: "abisal"
+    trim_pattern: "rpgarm:forja_abisal"
+    atributos: {defensa: 5.2, dureza: 1.3}
+    valor: 208
+    custom_data: {rz_item: "peto_abisal"}
+  grebas_abisal:
+    nombre: "Grebas de Abisal"
+    categoria: "armadura"
+    base: "diamond_leggings"
+    cmd: 5326
+    lore: ["Armadura estilo abisal."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 35
+    raza: ["triton"]
+    estilo: "abisal"
+    trim_pattern: "rpgarm:forja_abisal"
+    atributos: {defensa: 3.9, dureza: 1.3}
+    valor: 156
+    custom_data: {rz_item: "grebas_abisal"}
+  botas_abisal:
+    nombre: "Botas de Abisal"
+    categoria: "armadura"
+    base: "diamond_boots"
+    cmd: 5327
+    lore: ["Armadura estilo abisal."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 35
+    raza: ["triton"]
+    estilo: "abisal"
+    trim_pattern: "rpgarm:forja_abisal"
+    atributos: {defensa: 2.0, dureza: 0}
+    valor: 78
+    custom_data: {rz_item: "botas_abisal"}

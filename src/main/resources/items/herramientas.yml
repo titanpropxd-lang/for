@@ -1,0 +1,132 @@
+# Generado por tools/gen_items.py — categoría: herramienta
+items:
+  martillo_hierro:
+    nombre: "Martillo de herrero"
+    categoria: "herramienta"
+    base: "iron_axe"
+    cmd: 5600
+    lore: ["Martillo de herrero.", "Herramienta de oficio."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 1
+    durabilidad: 300
+    bonus: {vel_forja_pct: 10}
+    valor: 35
+    custom_data: {rz_item: "martillo_hierro"}
+  martillo_acero:
+    nombre: "Martillo de acero"
+    categoria: "herramienta"
+    base: "iron_axe"
+    cmd: 5601
+    lore: ["Martillo de acero.", "Herramienta de oficio."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 20
+    durabilidad: 600
+    bonus: {vel_forja_pct: 20, calidad_pct: 2}
+    valor: 130
+    custom_data: {rz_item: "martillo_acero"}
+  martillo_mithril:
+    nombre: "Martillo de mithril"
+    categoria: "herramienta"
+    base: "diamond_axe"
+    cmd: 5602
+    lore: ["Martillo de mithril.", "Herramienta de oficio."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 40
+    durabilidad: 1200
+    bonus: {vel_forja_pct: 30, calidad_pct: 5}
+    valor: 230
+    custom_data: {rz_item: "martillo_mithril"}
+  tenazas:
+    nombre: "Tenazas"
+    categoria: "herramienta"
+    base: "shears"
+    cmd: 5603
+    lore: ["Tenazas.", "Herramienta de oficio."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 1
+    durabilidad: 300
+    bonus: {ahorro_comb_pct: 10}
+    valor: 35
+    custom_data: {rz_item: "tenazas"}
+  tenazas_acero:
+    nombre: "Tenazas de acero"
+    categoria: "herramienta"
+    base: "shears"
+    cmd: 5604
+    lore: ["Tenazas de acero.", "Herramienta de oficio."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 20
+    durabilidad: 600
+    bonus: {ahorro_comb_pct: 20}
+    valor: 130
+    custom_data: {rz_item: "tenazas_acero"}
+  pinza_joyero:
+    nombre: "Pinza de joyero"
+    categoria: "herramienta"
+    base: "shears"
+    cmd: 5605
+    lore: ["Pinza de joyero.", "Herramienta de oficio."]
+    rareza: "comun"
+    oficio: "joyeria"
+    nivel_req: 5
+    durabilidad: 300
+    bonus: {calidad_pct: 3}
+    valor: 55
+    custom_data: {rz_item: "pinza_joyero"}
+  pulidora:
+    nombre: "Pulidora"
+    categoria: "herramienta"
+    base: "brush"
+    cmd: 5606
+    lore: ["Pulidora.", "Herramienta de oficio."]
+    rareza: "comun"
+    oficio: "joyeria"
+    nivel_req: 10
+    durabilidad: 400
+    bonus: {calidad_pct: 4}
+    valor: 80
+    custom_data: {rz_item: "pulidora"}
+  pulidora_fina:
+    nombre: "Pulidora fina"
+    categoria: "herramienta"
+    base: "brush"
+    cmd: 5607
+    lore: ["Pulidora fina.", "Herramienta de oficio."]
+    rareza: "poco_comun"
+    oficio: "joyeria"
+    nivel_req: 30
+    durabilidad: 800
+    bonus: {calidad_pct: 8}
+    valor: 180
+    custom_data: {rz_item: "pulidora_fina"}
+  aguja_sastre:
+    nombre: "Aguja de sastre"
+    categoria: "herramienta"
+    base: "brush"
+    cmd: 5608
+    lore: ["Aguja de sastre.", "Herramienta de oficio."]
+    rareza: "comun"
+    oficio: "armeria"
+    nivel_req: 1
+    durabilidad: 300
+    bonus: {vel_forja_pct: 10}
+    valor: 35
+    custom_data: {rz_item: "aguja_sastre"}
+  cepillo_carpintero:
+    nombre: "Cepillo de carpintero"
+    categoria: "herramienta"
+    base: "brush"
+    cmd: 5609
+    lore: ["Cepillo de carpintero.", "Herramienta de oficio."]
+    rareza: "comun"
+    oficio: "carpinteria"
+    nivel_req: 1
+    durabilidad: 300
+    bonus: {vel_forja_pct: 10}
+    valor: 35
+    custom_data: {rz_item: "cepillo_carpintero"}
