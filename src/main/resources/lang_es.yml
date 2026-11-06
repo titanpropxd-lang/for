@@ -1,0 +1,236 @@
+prefijo: <dark_gray>[<gold>Forja<dark_gray>] <gray>
+general:
+  sin_permiso: <red>No tienes permiso para eso.
+  cargando: <yellow>Tus datos aún se están cargando, espera un momento.
+oficio:
+  subida_titulo: '{color}¡{oficio} nivel {nivel}!'
+  subida_sub: <gray>Has desbloqueado <white>{n}<gray> receta(s) nueva(s)
+  desbloqueo: '<green>Nuevas recetas: <white>{lista}'
+  barra: <gold>{oficio} <gray>- nivel <white>{nivel}
+item:
+  dano: '<dark_gray>Daño: <white>{v} <dark_gray>| Velocidad: <white>{vel}'
+  dano_proyectil: '<dark_gray>Daño de proyectil: <white>{v}'
+  mult_dano: '<dark_gray>Daño: <white>+{v}%'
+  defensa: '<dark_gray>Defensa: <white>{v} <dark_gray>| Dureza: <white>{d}'
+  escudo: '<dark_gray>Resistencia de escudo: <white>+{v}'
+  maestria: '<dark_gray>Maestría: <white>{m}'
+  slot: '<dark_gray>Slot de accesorio: <white>{s}'
+  durabilidad_herramienta: '<dark_gray>Durabilidad: <white>{v} usos'
+  calidad: '<dark_gray>Calidad: {c}'
+  mejora: '<dark_gray>Reforzado: <yellow>+{n}'
+  oficio: '<dark_gray>Se forja con: <white>{o} <dark_gray>(nv {n})'
+  raza: '<dark_gray>Raza: <white>{r}'
+  forjador: <dark_gray>Forjado por <white>{f}
+  capacidad: '<dark_gray>Capacidad: <white>{n} casillas'
+pasivo:
+  max_vida: <green>+{v} corazones de vida
+  velocidad_mov_pct: <green>+{v}% velocidad de movimiento
+  dano: <green>+{v} de daño
+  suerte: <green>+{v} de suerte
+  dureza: <green>+{v} de dureza
+  robo_vida_pct: '<green>Robo de vida: {v}% del daño'
+  respirar_agua: <green>Respiras bajo el agua
+  defensa: <green>+{v} de defensa
+  vel_ataque_pct: <green>+{v}% velocidad de ataque
+  vision_nocturna: <green>Visión nocturna
+efecto:
+  regeneracion: <blue>Regeneración {nivel} ({seg}s)
+  fuerza: <blue>Fuerza {nivel} ({seg}s)
+  velocidad: <blue>Velocidad {nivel} ({seg}s)
+  vision_nocturna: <blue>Visión nocturna ({seg}s)
+  absorcion: <blue>Absorción {nivel} ({seg}s)
+  respirar_agua: <blue>Respirar bajo el agua ({seg}s)
+  resistencia: <blue>Resistencia {nivel} ({seg}s)
+  saturacion: <blue>Saturación
+  gracia_delfin: <blue>Gracia del delfín ({seg}s)
+  curacion: <blue>Cura {v} puntos de vida
+  quitar: '<blue>Elimina: {v}'
+  dano_pct: <blue>+{v}% de daño al arma
+  fuego_ticks: <blue>Prende fuego al golpear
+  veneno_seg: <blue>Envenena {v}s al golpear
+  lentitud_seg: <blue>Ralentiza {v}s al golpear
+  duracion_usos: '<gray>Se aplica con clic derecho (arma en la mano izquierda). Usos: {v}'
+bonus:
+  vel_forja_pct: <aqua>-{v}% tiempo de forja
+  calidad_pct: <aqua>+{v} puntos de calidad
+  ahorro_comb_pct: <aqua>-{v}% combustible
+buff:
+  afilado: '<yellow>Afilado: más daño ({usos} usos)'
+  fuego: <yellow>Aceite de fuego ({usos} usos)
+  veneno: <yellow>Aceite de veneno ({usos} usos)
+  escarcha: <yellow>Aceite de escarcha ({usos} usos)
+  necesita_arma: <red>Sostén un arma de Forja en la mano izquierda.
+  aplicado: <green>Tratamiento aplicado al arma.
+  agotado: <gray>El tratamiento de tu arma se ha agotado.
+forja:
+  listo: <green>¡Has forjado {item}<green>!
+  cancelada: <yellow>Forja cancelada. Materiales devueltos.
+  interrumpida: <yellow>Forja interrumpida. Materiales devueltos.
+  te_alejaste: <red>Te alejaste de la estación. Forja interrumpida y materiales devueltos.
+  bloqueada: <red>Esa receta se desbloquea en el nivel {n} del oficio.
+  raza_denegada: <red>Tu raza o linaje no puede forjar esto.
+  faltan: <red>Te faltan materiales.
+  herramienta_rota: <red>¡Se te ha roto una herramienta de oficio!
+  inventario_lleno: <red>Necesitas al menos un hueco libre en el inventario para recibir el objeto.
+  gate: <red>El datapack RPG exige nivel de XP <yellow>{n}<red> para obtener este objeto.
+  rpg_error: <red>No se pudo entregar el objeto del datapack RPG. Materiales devueltos. Avisa a un admin (¿datapack rpg cargado?).
+mejora:
+  no_valido: <red>Ese objeto no se puede reforzar aquí.
+  maximo: <red>Ya está al máximo (+5).
+  nivel: <red>No tienes nivel de oficio suficiente para este refuerzo.
+  exito: <green>¡Refuerzo logrado! Ahora es +{n}.
+  fallo: <red>El refuerzo falló. Queda en +{n} (el objeto no se destruye).
+reparar:
+  no_valido: <red>Ese objeto no se puede reparar aquí.
+  intacto: <red>El objeto no está dañado.
+  nivel: <red>Necesitas más nivel de oficio para repararlo.
+  exito: <green>Objeto reparado.
+desguace:
+  no_valido: <red>Ese objeto no se puede desguazar.
+  exito: '<green>Objeto desguazado: recuperas parte de los materiales.'
+accion:
+  cambio: <red>El objeto cambió de sitio. Vuelve a seleccionarlo.
+estacion:
+  desconocida: '<red>Estación desconocida: {e}'
+  colocada: '<green>Has colocado: {e}. Clic derecho para trabajar.'
+  retirada: <yellow>Estación retirada.
+  yunque: Yunque de herrero
+  forja: Forja
+  armeria: Mesa de armería
+  carpinteria: Banco de carpintero
+  joyeria: Mesa de joyería
+  alquimia: Mesa de alquimia
+  cocina: Hogar de cocina
+  mesa_materiales: 'Mesa: materias primas'
+  mesa_objetos: 'Mesa: objetos'
+  cartografia: Mesa de cartografía
+  canteria: Cantería
+  afilado: Piedra de afilar
+  compostera: Herbolario
+gui:
+  titulo: <dark_gray>{estacion}
+  oficios_titulo: <dark_gray>Tus oficios
+  accesorios_titulo: <dark_gray>Accesorios
+  modo:
+    forjar: <yellow>Forjar
+    mejorar: <yellow>Reforzar (+1 a +5)
+    reparar: <yellow>Reparar
+    desguazar: <yellow>Desguazar
+  categoria: '<gold>Categoría: <white>{c}'
+  sin_objetos: <red>No tienes objetos aplicables
+  volver: <yellow>« Volver
+  forjar: <green>FORJAR
+  faltan: <red>No se puede forjar
+  recuperas: <gold>Recuperarás
+  informacion: <yellow>Información
+  confirmar:
+    mejorar: <green>REFORZAR
+    reparar: <green>REPARAR
+    desguazar: <red>DESGUAZAR
+  cancelar: <red>Cancelar forja
+  mesa:
+    titulo: <dark_gray>Mesa de crafteo
+    normal: <yellow>Mesa de crafteo normal
+    materias: <gold>Fabricar materias primas
+    objetos: <gold>Fabricar objetos
+    volver: <yellow>« Volver a la mesa
+    oficios: <gold>Tus oficios
+    usar_normal: <yellow>Usar {mesa} normal
+    fabricar: '<gold>Fabricar: {estacion}'
+  mochila:
+    titulo: <dark_gray>{nombre}
+    bloqueada: <dark_gray>Sin espacio
+accesorios:
+  no_cabe: <red>Ese objeto no va en ese slot (o ya llevas uno igual).
+ingrediente:
+  fuel: Combustible (carbón)
+admin:
+  ayuda: <gold>/forja <white>dar <jugador> <item> [n] <gray>| <white>recargar <gray>| <white>nivel <jugador> <oficio> <n> <gray>| <white>receta <dar|quitar|reset> <jugador> <receta> <gray>| <white>debug <gray>| <white>lista [items|recetas] [filtro] <gray>| <white>abrir <jugador> [estacion]
+  recargado: '<green>Forja recargado: {items} items y {recetas} recetas.'
+  uso_dar: '<red>Uso: /forja dar <jugador> <item> [cantidad]'
+  jugador_no: <red>Jugador no encontrado (debe estar conectado).
+  item_no: '<red>Item desconocido: {id}'
+  numero_no: <red>Número inválido.
+  dado: <green>Diste {n}x {item} a {jugador}.
+  uso_nivel: '<red>Uso: /forja nivel <jugador> <oficio> <n>'
+  oficio_no: <red>Oficio desconocido (herreria, armeria, carpinteria, joyeria, alquimia, cocina).
+  nivel_ok: '<green>{jugador}: {oficio} ahora es nivel {n}.'
+  uso_receta: '<red>Uso: /forja receta <dar|quitar|reset> <jugador> <receta>'
+  receta_no: '<red>Receta desconocida: {id}'
+  receta_ok: '<green>Receta {receta} -> {jugador}: {accion}.'
+  debug_on: <yellow>Debug activado.
+  debug_off: <yellow>Debug desactivado.
+  debug_raza: '<gray>Raza: id={id} key={key} nivel={nivel} linaje={linaje}'
+  debug_sin_item: <gray>No llevas un item de Forja en la mano.
+  debug_item: '<gray>Item: {id} cmd={cmd} calidad={calidad} mejora=+{plus} firma_valida={auth}'
+  debug_datos: '<gray>Estaciones registradas: {estaciones} | tus datos cargados: {listo}'
+  uso_abrir: '<red>Uso: /forja abrir <jugador> [estacion]'
+vanilla:
+  AMETHYST_SHARD: Fragmento de amatista
+  BLAZE_POWDER: Polvo de blaze
+  CARROT: Zanahoria
+  CLAY_BALL: Bola de arcilla
+  COAL: Carbón
+  COOKED_BEEF: Ternera cocinada
+  COOKED_COD: Bacalao cocinado
+  COOKED_PORKCHOP: Chuleta cocinada
+  COOKED_SALMON: Salmón cocinado
+  COPPER_INGOT: Lingote de cobre
+  DARK_OAK_LOG: Tronco de roble oscuro
+  EGG: Huevo
+  EMERALD: Esmeralda
+  FEATHER: Pluma
+  FLINT: Sílex
+  GLASS: Cristal
+  GLASS_BOTTLE: Botella de cristal
+  GLISTERING_MELON_SLICE: Rodaja de sandía brillante
+  GLOWSTONE_DUST: Polvo de piedra luminosa
+  GOLDEN_CARROT: Zanahoria dorada
+  GOLD_INGOT: Lingote de oro
+  HONEY_BOTTLE: Botella de miel
+  IRON_INGOT: Lingote de hierro
+  KELP: Alga
+  LAPIS_LAZULI: Lapislázuli
+  LEATHER: Cuero
+  NAUTILUS_SHELL: Caparazón de nautilo
+  OBSIDIAN: Obsidiana
+  PACKED_ICE: Hielo compacto
+  PAPER: Papel
+  POTATO: Patata
+  QUARTZ: Cuarzo
+  REDSTONE: Polvo de redstone
+  SPIDER_EYE: Ojo de araña
+  STICK: Palo
+  STRING: Hilo
+  SUGAR: Azúcar
+  SWEET_BERRIES: Bayas dulces
+  TRIDENT: Tridente
+  TRIPWIRE_HOOK: Gancho de cuerda trampa
+  WHEAT: Trigo
+  WHITE_WOOL: Lana blanca
+  DIAMOND: Diamante
+  NETHERITE_SCRAP: Fragmento de netherita
+  INK_SAC: Saco de tinta
+  COBBLESTONE: Adoquín
+  FERN: Helecho
+  BAKED_POTATO: Patata asada
+  DRIED_KELP: Alga seca
+  GLOW_BERRIES: Bayas luminosas
+mesa:
+  error: '<red>Error interno al abrir el menú (<gray>{e}<red>). Avisa a un admin: el detalle completo está en la consola.'
+mesa_nombre:
+  CRAFTING_TABLE: la mesa de crafteo
+  ANVIL: el yunque
+  CHIPPED_ANVIL: el yunque
+  DAMAGED_ANVIL: el yunque
+  BLAST_FURNACE: el alto horno
+  FURNACE: el horno
+  SMOKER: el ahumador
+  LOOM: el telar
+  FLETCHING_TABLE: la mesa de flechería
+  SMITHING_TABLE: la mesa de herrería
+  BREWING_STAND: el soporte de pociones
+  CARTOGRAPHY_TABLE: la mesa de cartografía
+  STONECUTTER: la cortapiedras
+  GRINDSTONE: la piedra de afilar
+  COMPOSTER: la compostera
