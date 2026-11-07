@@ -1,0 +1,212 @@
+# Generado por tools/gen_recipes.py — estación: armeria
+recetas:
+  cuero_curtido:
+    resultado: "cuero_curtido"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 1
+    tiempo: 3
+    xp: 7
+    xp_raza: 0
+    categoria: "Materiales"
+    ingredientes: {"vanilla:LEATHER": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  seda:
+    resultado: "seda"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 8
+    tiempo: 3
+    xp: 19
+    xp_raza: 0
+    categoria: "Materiales"
+    ingredientes: {"vanilla:STRING": 4}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  tela_lana:
+    resultado: "tela_lana"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 3
+    tiempo: 3
+    xp: 10
+    xp_raza: 0
+    categoria: "Materiales"
+    ingredientes: {"vanilla:WHITE_WOOL": 3}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  hilo:
+    resultado: "hilo"
+    cantidad: 2
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 1
+    tiempo: 3
+    xp: 7
+    xp_raza: 0
+    categoria: "Materiales"
+    ingredientes: {"vanilla:STRING": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  rpg_a6_head:
+    resultado: "rpg_a6_head"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Armadura medieval"
+    ingredientes: {"cuero_curtido": 4, "hilo": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  rpg_a6_chest:
+    resultado: "rpg_a6_chest"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 5
+    tiempo: 3
+    xp: 22
+    xp_raza: 0
+    categoria: "Armadura medieval"
+    ingredientes: {"cuero_curtido": 7, "hilo": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  rpg_a6_legs:
+    resultado: "rpg_a6_legs"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 5
+    tiempo: 3
+    xp: 18
+    xp_raza: 0
+    categoria: "Armadura medieval"
+    ingredientes: {"cuero_curtido": 6, "hilo": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  rpg_a6_feet:
+    resultado: "rpg_a6_feet"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 5
+    tiempo: 3
+    xp: 12
+    xp_raza: 0
+    categoria: "Armadura medieval"
+    ingredientes: {"cuero_curtido": 3, "hilo": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  rpg_a12_chest:
+    resultado: "rpg_a12_chest"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 12
+    tiempo: 6
+    xp: 43
+    xp_raza: 0
+    categoria: "Armadura celta"
+    ingredientes: {"cuero_curtido": 7, "hilo": 2, "seda": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  rpg_a12_legs:
+    resultado: "rpg_a12_legs"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 12
+    tiempo: 6
+    xp: 35
+    xp_raza: 0
+    categoria: "Armadura celta"
+    ingredientes: {"cuero_curtido": 6, "hilo": 2, "seda": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  rpg_a12_feet:
+    resultado: "rpg_a12_feet"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 12
+    tiempo: 6
+    xp: 24
+    xp_raza: 0
+    categoria: "Armadura celta"
+    ingredientes: {"cuero_curtido": 3, "hilo": 2, "seda": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  aguja_sastre:
+    resultado: "aguja_sastre"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 1
+    tiempo: 3
+    xp: 7
+    xp_raza: 0
+    categoria: "Herramientas"
+    ingredientes: {"lingote_cobre": 1, "hilo": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  mochila_pequena:
+    resultado: "mochila_pequena"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 8
+    tiempo: 3
+    xp: 19
+    xp_raza: 0
+    categoria: "Mochilas"
+    ingredientes: {"cuero_curtido": 6, "hilo": 3, "remaches": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  mochila_mediana:
+    resultado: "mochila_mediana"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 0
+    categoria: "Mochilas"
+    ingredientes: {"cuero_curtido": 8, "hilo": 4, "remaches": 4, "seda": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  mochila_grande:
+    resultado: "mochila_grande"
+    cantidad: 1
+    oficio: "armeria"
+    estacion: "armeria"
+    nivel: 35
+    tiempo: 9
+    xp: 68
+    xp_raza: 0
+    categoria: "Mochilas"
+    ingredientes: {"cuero_curtido": 10, "hilo": 4, "remaches": 6, "seda": 4, "lingote_plata": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0

@@ -1,0 +1,869 @@
+# Generado por tools/gen_items.py — categoría: rpg_armadura
+items:
+  rpg_a0_head:
+    nombre: "Casco de Cristal Puro"
+    categoria: "rpg_armadura"
+    base: "diamond_helmet"
+    cmd: 1001
+    color: "light_purple"
+    lore: ["Armadura · Nivel IV (Épico)", "Cristal puro que canta con el viento.", "", "Set completo: +4 corazones", "Set completo (efectos):", "  • Velocidad I", "  • Prisa I"]
+    rareza: "epico"
+    tier: "4"
+    oficio: "herreria"
+    nivel_req: 32
+    estilo: "crystal_cian"
+    pieza: "head"
+    atributos: {defensa: 3.0, dureza: 1.0}
+    valor: 960
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a0_c{c}_head", macro: false, colores: 1, modelo: 0, categoria: "Armadura cristal", pieza_nombre: "Casco"}
+  rpg_a0_chest:
+    nombre: "Peto de Cristal Puro"
+    categoria: "rpg_armadura"
+    base: "diamond_chestplate"
+    cmd: 1001
+    color: "light_purple"
+    lore: ["Armadura · Nivel IV (Épico)", "Cristal puro que canta con el viento.", "", "Set completo: +4 corazones", "Set completo (efectos):", "  • Velocidad I", "  • Prisa I"]
+    rareza: "epico"
+    tier: "4"
+    oficio: "herreria"
+    nivel_req: 32
+    estilo: "crystal_cian"
+    pieza: "chest"
+    atributos: {defensa: 8.0, dureza: 1.0}
+    valor: 960
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a0_c{c}_chest", macro: false, colores: 1, modelo: 0, categoria: "Armadura cristal", pieza_nombre: "Peto"}
+  rpg_a0_legs:
+    nombre: "Pantalones de Cristal Puro"
+    categoria: "rpg_armadura"
+    base: "diamond_leggings"
+    cmd: 1001
+    color: "light_purple"
+    lore: ["Armadura · Nivel IV (Épico)", "Cristal puro que canta con el viento.", "", "Set completo: +4 corazones", "Set completo (efectos):", "  • Velocidad I", "  • Prisa I"]
+    rareza: "epico"
+    tier: "4"
+    oficio: "herreria"
+    nivel_req: 32
+    estilo: "crystal_cian"
+    pieza: "legs"
+    atributos: {defensa: 6.0, dureza: 1.0}
+    valor: 960
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a0_c{c}_legs", macro: false, colores: 1, modelo: 0, categoria: "Armadura cristal", pieza_nombre: "Pantalones"}
+  rpg_a0_feet:
+    nombre: "Botas de Cristal Puro"
+    categoria: "rpg_armadura"
+    base: "diamond_boots"
+    cmd: 1001
+    color: "light_purple"
+    lore: ["Armadura · Nivel IV (Épico)", "Cristal puro que canta con el viento.", "", "Set completo: +4 corazones", "Set completo (efectos):", "  • Velocidad I", "  • Prisa I"]
+    rareza: "epico"
+    tier: "4"
+    oficio: "herreria"
+    nivel_req: 32
+    estilo: "crystal_cian"
+    pieza: "feet"
+    atributos: {defensa: 3.0, dureza: 1.0}
+    valor: 960
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a0_c{c}_feet", macro: false, colores: 1, modelo: 0, categoria: "Armadura cristal", pieza_nombre: "Botas"}
+  rpg_a1_head:
+    nombre: "Casco de Cristal Violeta"
+    categoria: "rpg_armadura"
+    base: "diamond_helmet"
+    cmd: 1101
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "El poder violeta recorre cada pieza.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Fuerza I"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_morado"
+    pieza: "head"
+    atributos: {defensa: 3.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a1_c{c}_head", macro: false, colores: 1, modelo: 1, categoria: "Armadura cristal", pieza_nombre: "Casco"}
+  rpg_a1_chest:
+    nombre: "Peto de Cristal Violeta"
+    categoria: "rpg_armadura"
+    base: "diamond_chestplate"
+    cmd: 1101
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "El poder violeta recorre cada pieza.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Fuerza I"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_morado"
+    pieza: "chest"
+    atributos: {defensa: 9.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a1_c{c}_chest", macro: false, colores: 1, modelo: 1, categoria: "Armadura cristal", pieza_nombre: "Peto"}
+  rpg_a1_legs:
+    nombre: "Pantalones de Cristal Violeta"
+    categoria: "rpg_armadura"
+    base: "diamond_leggings"
+    cmd: 1101
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "El poder violeta recorre cada pieza.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Fuerza I"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_morado"
+    pieza: "legs"
+    atributos: {defensa: 7.0, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a1_c{c}_legs", macro: false, colores: 1, modelo: 1, categoria: "Armadura cristal", pieza_nombre: "Pantalones"}
+  rpg_a1_feet:
+    nombre: "Botas de Cristal Violeta"
+    categoria: "rpg_armadura"
+    base: "diamond_boots"
+    cmd: 1101
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "El poder violeta recorre cada pieza.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Fuerza I"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_morado"
+    pieza: "feet"
+    atributos: {defensa: 3.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a1_c{c}_feet", macro: false, colores: 1, modelo: 1, categoria: "Armadura cristal", pieza_nombre: "Botas"}
+  rpg_a2_head:
+    nombre: "Casco de Cristal Rubí"
+    categoria: "rpg_armadura"
+    base: "diamond_helmet"
+    cmd: 1201
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Un rubí vivo late bajo el metal.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Resistencia al fuego", "  • Regeneración I"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_rojo"
+    pieza: "head"
+    atributos: {defensa: 3.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a2_c{c}_head", macro: false, colores: 1, modelo: 2, categoria: "Armadura cristal", pieza_nombre: "Casco"}
+  rpg_a2_chest:
+    nombre: "Peto de Cristal Rubí"
+    categoria: "rpg_armadura"
+    base: "diamond_chestplate"
+    cmd: 1201
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Un rubí vivo late bajo el metal.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Resistencia al fuego", "  • Regeneración I"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_rojo"
+    pieza: "chest"
+    atributos: {defensa: 9.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a2_c{c}_chest", macro: false, colores: 1, modelo: 2, categoria: "Armadura cristal", pieza_nombre: "Peto"}
+  rpg_a2_legs:
+    nombre: "Pantalones de Cristal Rubí"
+    categoria: "rpg_armadura"
+    base: "diamond_leggings"
+    cmd: 1201
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Un rubí vivo late bajo el metal.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Resistencia al fuego", "  • Regeneración I"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_rojo"
+    pieza: "legs"
+    atributos: {defensa: 7.0, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a2_c{c}_legs", macro: false, colores: 1, modelo: 2, categoria: "Armadura cristal", pieza_nombre: "Pantalones"}
+  rpg_a2_feet:
+    nombre: "Botas de Cristal Rubí"
+    categoria: "rpg_armadura"
+    base: "diamond_boots"
+    cmd: 1201
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Un rubí vivo late bajo el metal.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Resistencia al fuego", "  • Regeneración I"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_rojo"
+    pieza: "feet"
+    atributos: {defensa: 3.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a2_c{c}_feet", macro: false, colores: 1, modelo: 2, categoria: "Armadura cristal", pieza_nombre: "Botas"}
+  rpg_a3_head:
+    nombre: "Casco de Cristal Zafiro"
+    categoria: "rpg_armadura"
+    base: "diamond_helmet"
+    cmd: 1301
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Fría y profunda como el océano.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Respiración acuática", "  • Gracia del delfín"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_azul"
+    pieza: "head"
+    atributos: {defensa: 3.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a3_c{c}_head", macro: false, colores: 1, modelo: 3, categoria: "Armadura cristal", pieza_nombre: "Casco"}
+  rpg_a3_chest:
+    nombre: "Peto de Cristal Zafiro"
+    categoria: "rpg_armadura"
+    base: "diamond_chestplate"
+    cmd: 1301
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Fría y profunda como el océano.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Respiración acuática", "  • Gracia del delfín"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_azul"
+    pieza: "chest"
+    atributos: {defensa: 9.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a3_c{c}_chest", macro: false, colores: 1, modelo: 3, categoria: "Armadura cristal", pieza_nombre: "Peto"}
+  rpg_a3_legs:
+    nombre: "Pantalones de Cristal Zafiro"
+    categoria: "rpg_armadura"
+    base: "diamond_leggings"
+    cmd: 1301
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Fría y profunda como el océano.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Respiración acuática", "  • Gracia del delfín"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_azul"
+    pieza: "legs"
+    atributos: {defensa: 7.0, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a3_c{c}_legs", macro: false, colores: 1, modelo: 3, categoria: "Armadura cristal", pieza_nombre: "Pantalones"}
+  rpg_a3_feet:
+    nombre: "Botas de Cristal Zafiro"
+    categoria: "rpg_armadura"
+    base: "diamond_boots"
+    cmd: 1301
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Fría y profunda como el océano.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Respiración acuática", "  • Gracia del delfín"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_azul"
+    pieza: "feet"
+    atributos: {defensa: 3.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a3_c{c}_feet", macro: false, colores: 1, modelo: 3, categoria: "Armadura cristal", pieza_nombre: "Botas"}
+  rpg_a4_head:
+    nombre: "Casco de Cristal Jade"
+    categoria: "rpg_armadura"
+    base: "diamond_helmet"
+    cmd: 1401
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Ligera como una hoja al viento.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Salto II", "  • Caída lenta"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_verde"
+    pieza: "head"
+    atributos: {defensa: 3.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a4_c{c}_head", macro: false, colores: 1, modelo: 4, categoria: "Armadura cristal", pieza_nombre: "Casco"}
+  rpg_a4_chest:
+    nombre: "Peto de Cristal Jade"
+    categoria: "rpg_armadura"
+    base: "diamond_chestplate"
+    cmd: 1401
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Ligera como una hoja al viento.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Salto II", "  • Caída lenta"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_verde"
+    pieza: "chest"
+    atributos: {defensa: 9.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a4_c{c}_chest", macro: false, colores: 1, modelo: 4, categoria: "Armadura cristal", pieza_nombre: "Peto"}
+  rpg_a4_legs:
+    nombre: "Pantalones de Cristal Jade"
+    categoria: "rpg_armadura"
+    base: "diamond_leggings"
+    cmd: 1401
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Ligera como una hoja al viento.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Salto II", "  • Caída lenta"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_verde"
+    pieza: "legs"
+    atributos: {defensa: 7.0, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a4_c{c}_legs", macro: false, colores: 1, modelo: 4, categoria: "Armadura cristal", pieza_nombre: "Pantalones"}
+  rpg_a4_feet:
+    nombre: "Botas de Cristal Jade"
+    categoria: "rpg_armadura"
+    base: "diamond_boots"
+    cmd: 1401
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Ligera como una hoja al viento.", "", "Set completo: +6 corazones", "Set completo (efectos):", "  • Salto II", "  • Caída lenta"]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "crystal_verde"
+    pieza: "feet"
+    atributos: {defensa: 3.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a4_c{c}_feet", macro: false, colores: 1, modelo: 4, categoria: "Armadura cristal", pieza_nombre: "Botas"}
+  rpg_a5_head:
+    nombre: "Casco de Cristal Ónix"
+    categoria: "rpg_armadura"
+    base: "diamond_helmet"
+    cmd: 1501
+    color: "red"
+    lore: ["Armadura · Nivel VI (Mítico)", "Oscura, densa e inquebrantable.", "", "Set completo: +8 corazones", "Set completo (efectos):", "  • Visión nocturna", "  • Resistencia I"]
+    rareza: "legendario"
+    tier: "6"
+    oficio: "herreria"
+    nivel_req: 50
+    estilo: "crystal_onyx"
+    pieza: "head"
+    atributos: {defensa: 4.0, dureza: 1.5}
+    valor: 2160
+    mejora_material: "lingote_mithril"
+    rpg: {funcion: "rpg:give/a5_c{c}_head", macro: false, colores: 1, modelo: 5, categoria: "Armadura cristal", pieza_nombre: "Casco"}
+  rpg_a5_chest:
+    nombre: "Peto de Cristal Ónix"
+    categoria: "rpg_armadura"
+    base: "diamond_chestplate"
+    cmd: 1501
+    color: "red"
+    lore: ["Armadura · Nivel VI (Mítico)", "Oscura, densa e inquebrantable.", "", "Set completo: +8 corazones", "Set completo (efectos):", "  • Visión nocturna", "  • Resistencia I"]
+    rareza: "legendario"
+    tier: "6"
+    oficio: "herreria"
+    nivel_req: 50
+    estilo: "crystal_onyx"
+    pieza: "chest"
+    atributos: {defensa: 11.0, dureza: 1.5}
+    valor: 2160
+    mejora_material: "lingote_mithril"
+    rpg: {funcion: "rpg:give/a5_c{c}_chest", macro: false, colores: 1, modelo: 5, categoria: "Armadura cristal", pieza_nombre: "Peto"}
+  rpg_a5_legs:
+    nombre: "Pantalones de Cristal Ónix"
+    categoria: "rpg_armadura"
+    base: "diamond_leggings"
+    cmd: 1501
+    color: "red"
+    lore: ["Armadura · Nivel VI (Mítico)", "Oscura, densa e inquebrantable.", "", "Set completo: +8 corazones", "Set completo (efectos):", "  • Visión nocturna", "  • Resistencia I"]
+    rareza: "legendario"
+    tier: "6"
+    oficio: "herreria"
+    nivel_req: 50
+    estilo: "crystal_onyx"
+    pieza: "legs"
+    atributos: {defensa: 8.5, dureza: 1.5}
+    valor: 2160
+    mejora_material: "lingote_mithril"
+    rpg: {funcion: "rpg:give/a5_c{c}_legs", macro: false, colores: 1, modelo: 5, categoria: "Armadura cristal", pieza_nombre: "Pantalones"}
+  rpg_a5_feet:
+    nombre: "Botas de Cristal Ónix"
+    categoria: "rpg_armadura"
+    base: "diamond_boots"
+    cmd: 1501
+    color: "red"
+    lore: ["Armadura · Nivel VI (Mítico)", "Oscura, densa e inquebrantable.", "", "Set completo: +8 corazones", "Set completo (efectos):", "  • Visión nocturna", "  • Resistencia I"]
+    rareza: "legendario"
+    tier: "6"
+    oficio: "herreria"
+    nivel_req: 50
+    estilo: "crystal_onyx"
+    pieza: "feet"
+    atributos: {defensa: 4.0, dureza: 1.5}
+    valor: 2160
+    mejora_material: "lingote_mithril"
+    rpg: {funcion: "rpg:give/a5_c{c}_feet", macro: false, colores: 1, modelo: 5, categoria: "Armadura cristal", pieza_nombre: "Botas"}
+  rpg_a6_head:
+    nombre: "Casco Medieval de Cuero"
+    categoria: "rpg_armadura"
+    base: "leather_helmet"
+    cmd: 2005
+    color: "white"
+    lore: ["Armadura · Nivel I (Común)", "Armadura ligera de cuero reforzado.", "", "Armadura básica sin efectos de set."]
+    rareza: "comun"
+    tier: "1"
+    oficio: "armeria"
+    nivel_req: 5
+    estilo: "med_leather"
+    pieza: "head"
+    atributos: {defensa: 1.0, dureza: 0.0}
+    valor: 60
+    mejora_material: "cuero_curtido"
+    rpg: {funcion: "rpg:give/a6_c{c}_head", macro: false, colores: 1, modelo: 6, categoria: "Armadura medieval", pieza_nombre: "Casco"}
+  rpg_a6_chest:
+    nombre: "Peto Medieval de Cuero"
+    categoria: "rpg_armadura"
+    base: "leather_chestplate"
+    cmd: 2005
+    color: "white"
+    lore: ["Armadura · Nivel I (Común)", "Armadura ligera de cuero reforzado.", "", "Armadura básica sin efectos de set."]
+    rareza: "comun"
+    tier: "1"
+    oficio: "armeria"
+    nivel_req: 5
+    estilo: "med_leather"
+    pieza: "chest"
+    atributos: {defensa: 3.0, dureza: 0.0}
+    valor: 60
+    mejora_material: "cuero_curtido"
+    rpg: {funcion: "rpg:give/a6_c{c}_chest", macro: false, colores: 1, modelo: 6, categoria: "Armadura medieval", pieza_nombre: "Peto"}
+  rpg_a6_legs:
+    nombre: "Pantalones Medieval de Cuero"
+    categoria: "rpg_armadura"
+    base: "leather_leggings"
+    cmd: 2005
+    color: "white"
+    lore: ["Armadura · Nivel I (Común)", "Armadura ligera de cuero reforzado.", "", "Armadura básica sin efectos de set."]
+    rareza: "comun"
+    tier: "1"
+    oficio: "armeria"
+    nivel_req: 5
+    estilo: "med_leather"
+    pieza: "legs"
+    atributos: {defensa: 2.5, dureza: 0.0}
+    valor: 60
+    mejora_material: "cuero_curtido"
+    rpg: {funcion: "rpg:give/a6_c{c}_legs", macro: false, colores: 1, modelo: 6, categoria: "Armadura medieval", pieza_nombre: "Pantalones"}
+  rpg_a6_feet:
+    nombre: "Botas Medieval de Cuero"
+    categoria: "rpg_armadura"
+    base: "leather_boots"
+    cmd: 2005
+    color: "white"
+    lore: ["Armadura · Nivel I (Común)", "Armadura ligera de cuero reforzado.", "", "Armadura básica sin efectos de set."]
+    rareza: "comun"
+    tier: "1"
+    oficio: "armeria"
+    nivel_req: 5
+    estilo: "med_leather"
+    pieza: "feet"
+    atributos: {defensa: 1.0, dureza: 0.0}
+    valor: 60
+    mejora_material: "cuero_curtido"
+    rpg: {funcion: "rpg:give/a6_c{c}_feet", macro: false, colores: 1, modelo: 6, categoria: "Armadura medieval", pieza_nombre: "Botas"}
+  rpg_a7_head:
+    nombre: "Casco Medieval de Cota de Malla"
+    categoria: "rpg_armadura"
+    base: "chainmail_helmet"
+    cmd: 2001
+    color: "green"
+    lore: ["Armadura · Nivel II (Poco común)", "Equipo de guerra de la era medieval.", "", "Set completo: +2 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "poco_comun"
+    tier: "2"
+    oficio: "herreria"
+    nivel_req: 12
+    estilo: "med_chainmail_cian"
+    pieza: "head"
+    atributos: {defensa: 2.0, dureza: 0.0}
+    valor: 240
+    mejora_material: "lingote_hierro_forjado"
+    rpg: {funcion: "rpg:give/a7_c{c}_head", macro: false, colores: 6, modelo: 7, categoria: "Armadura medieval", pieza_nombre: "Casco"}
+  rpg_a7_chest:
+    nombre: "Peto Medieval de Cota de Malla"
+    categoria: "rpg_armadura"
+    base: "chainmail_chestplate"
+    cmd: 2001
+    color: "green"
+    lore: ["Armadura · Nivel II (Poco común)", "Equipo de guerra de la era medieval.", "", "Set completo: +2 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "poco_comun"
+    tier: "2"
+    oficio: "herreria"
+    nivel_req: 12
+    estilo: "med_chainmail_cian"
+    pieza: "chest"
+    atributos: {defensa: 5.0, dureza: 0.0}
+    valor: 240
+    mejora_material: "lingote_hierro_forjado"
+    rpg: {funcion: "rpg:give/a7_c{c}_chest", macro: false, colores: 6, modelo: 7, categoria: "Armadura medieval", pieza_nombre: "Peto"}
+  rpg_a7_legs:
+    nombre: "Pantalones Medieval de Cota de Malla"
+    categoria: "rpg_armadura"
+    base: "chainmail_leggings"
+    cmd: 2001
+    color: "green"
+    lore: ["Armadura · Nivel II (Poco común)", "Equipo de guerra de la era medieval.", "", "Set completo: +2 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "poco_comun"
+    tier: "2"
+    oficio: "herreria"
+    nivel_req: 12
+    estilo: "med_chainmail_cian"
+    pieza: "legs"
+    atributos: {defensa: 3.5, dureza: 0.0}
+    valor: 240
+    mejora_material: "lingote_hierro_forjado"
+    rpg: {funcion: "rpg:give/a7_c{c}_legs", macro: false, colores: 6, modelo: 7, categoria: "Armadura medieval", pieza_nombre: "Pantalones"}
+  rpg_a7_feet:
+    nombre: "Botas Medieval de Cota de Malla"
+    categoria: "rpg_armadura"
+    base: "chainmail_boots"
+    cmd: 2001
+    color: "green"
+    lore: ["Armadura · Nivel II (Poco común)", "Equipo de guerra de la era medieval.", "", "Set completo: +2 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "poco_comun"
+    tier: "2"
+    oficio: "herreria"
+    nivel_req: 12
+    estilo: "med_chainmail_cian"
+    pieza: "feet"
+    atributos: {defensa: 2.0, dureza: 0.0}
+    valor: 240
+    mejora_material: "lingote_hierro_forjado"
+    rpg: {funcion: "rpg:give/a7_c{c}_feet", macro: false, colores: 6, modelo: 7, categoria: "Armadura medieval", pieza_nombre: "Botas"}
+  rpg_a8_head:
+    nombre: "Casco Medieval de Hierro"
+    categoria: "rpg_armadura"
+    base: "iron_helmet"
+    cmd: 2002
+    color: "aqua"
+    lore: ["Armadura · Nivel III (Raro)", "Equipo de guerra de la era medieval.", "", "Set completo: +4 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "raro"
+    tier: "3"
+    oficio: "herreria"
+    nivel_req: 22
+    estilo: "med_iron_cian"
+    pieza: "head"
+    atributos: {defensa: 2.5, dureza: 0.5}
+    valor: 540
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a8_c{c}_head", macro: false, colores: 6, modelo: 8, categoria: "Armadura medieval", pieza_nombre: "Casco"}
+  rpg_a8_chest:
+    nombre: "Peto Medieval de Hierro"
+    categoria: "rpg_armadura"
+    base: "iron_chestplate"
+    cmd: 2002
+    color: "aqua"
+    lore: ["Armadura · Nivel III (Raro)", "Equipo de guerra de la era medieval.", "", "Set completo: +4 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "raro"
+    tier: "3"
+    oficio: "herreria"
+    nivel_req: 22
+    estilo: "med_iron_cian"
+    pieza: "chest"
+    atributos: {defensa: 6.5, dureza: 0.5}
+    valor: 540
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a8_c{c}_chest", macro: false, colores: 6, modelo: 8, categoria: "Armadura medieval", pieza_nombre: "Peto"}
+  rpg_a8_legs:
+    nombre: "Pantalones Medieval de Hierro"
+    categoria: "rpg_armadura"
+    base: "iron_leggings"
+    cmd: 2002
+    color: "aqua"
+    lore: ["Armadura · Nivel III (Raro)", "Equipo de guerra de la era medieval.", "", "Set completo: +4 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "raro"
+    tier: "3"
+    oficio: "herreria"
+    nivel_req: 22
+    estilo: "med_iron_cian"
+    pieza: "legs"
+    atributos: {defensa: 5.0, dureza: 0.5}
+    valor: 540
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a8_c{c}_legs", macro: false, colores: 6, modelo: 8, categoria: "Armadura medieval", pieza_nombre: "Pantalones"}
+  rpg_a8_feet:
+    nombre: "Botas Medieval de Hierro"
+    categoria: "rpg_armadura"
+    base: "iron_boots"
+    cmd: 2002
+    color: "aqua"
+    lore: ["Armadura · Nivel III (Raro)", "Equipo de guerra de la era medieval.", "", "Set completo: +4 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "raro"
+    tier: "3"
+    oficio: "herreria"
+    nivel_req: 22
+    estilo: "med_iron_cian"
+    pieza: "feet"
+    atributos: {defensa: 2.5, dureza: 0.5}
+    valor: 540
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a8_c{c}_feet", macro: false, colores: 6, modelo: 8, categoria: "Armadura medieval", pieza_nombre: "Botas"}
+  rpg_a9_head:
+    nombre: "Casco Medieval de Oro"
+    categoria: "rpg_armadura"
+    base: "golden_helmet"
+    cmd: 2004
+    color: "aqua"
+    lore: ["Armadura · Nivel III (Raro)", "Equipo de guerra de la era medieval.", "", "Set completo: +6 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "raro"
+    tier: "3"
+    oficio: "herreria"
+    nivel_req: 22
+    estilo: "med_golden_cian"
+    pieza: "head"
+    atributos: {defensa: 2.5, dureza: 0.5}
+    valor: 540
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a9_c{c}_head", macro: false, colores: 6, modelo: 9, categoria: "Armadura medieval", pieza_nombre: "Casco"}
+  rpg_a9_chest:
+    nombre: "Peto Medieval de Oro"
+    categoria: "rpg_armadura"
+    base: "golden_chestplate"
+    cmd: 2004
+    color: "aqua"
+    lore: ["Armadura · Nivel III (Raro)", "Equipo de guerra de la era medieval.", "", "Set completo: +6 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "raro"
+    tier: "3"
+    oficio: "herreria"
+    nivel_req: 22
+    estilo: "med_golden_cian"
+    pieza: "chest"
+    atributos: {defensa: 6.5, dureza: 0.5}
+    valor: 540
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a9_c{c}_chest", macro: false, colores: 6, modelo: 9, categoria: "Armadura medieval", pieza_nombre: "Peto"}
+  rpg_a9_legs:
+    nombre: "Pantalones Medieval de Oro"
+    categoria: "rpg_armadura"
+    base: "golden_leggings"
+    cmd: 2004
+    color: "aqua"
+    lore: ["Armadura · Nivel III (Raro)", "Equipo de guerra de la era medieval.", "", "Set completo: +6 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "raro"
+    tier: "3"
+    oficio: "herreria"
+    nivel_req: 22
+    estilo: "med_golden_cian"
+    pieza: "legs"
+    atributos: {defensa: 5.0, dureza: 0.5}
+    valor: 540
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a9_c{c}_legs", macro: false, colores: 6, modelo: 9, categoria: "Armadura medieval", pieza_nombre: "Pantalones"}
+  rpg_a9_feet:
+    nombre: "Botas Medieval de Oro"
+    categoria: "rpg_armadura"
+    base: "golden_boots"
+    cmd: 2004
+    color: "aqua"
+    lore: ["Armadura · Nivel III (Raro)", "Equipo de guerra de la era medieval.", "", "Set completo: +6 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "raro"
+    tier: "3"
+    oficio: "herreria"
+    nivel_req: 22
+    estilo: "med_golden_cian"
+    pieza: "feet"
+    atributos: {defensa: 2.5, dureza: 0.5}
+    valor: 540
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a9_c{c}_feet", macro: false, colores: 6, modelo: 9, categoria: "Armadura medieval", pieza_nombre: "Botas"}
+  rpg_a10_head:
+    nombre: "Casco Medieval de Diamante"
+    categoria: "rpg_armadura"
+    base: "diamond_helmet"
+    cmd: 2003
+    color: "light_purple"
+    lore: ["Armadura · Nivel IV (Épico)", "Equipo de guerra de la era medieval.", "", "Set completo: +4 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "epico"
+    tier: "4"
+    oficio: "herreria"
+    nivel_req: 32
+    estilo: "med_diamond_cian"
+    pieza: "head"
+    atributos: {defensa: 3.0, dureza: 1.0}
+    valor: 960
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a10_c{c}_head", macro: false, colores: 6, modelo: 10, categoria: "Armadura medieval", pieza_nombre: "Casco"}
+  rpg_a10_chest:
+    nombre: "Peto Medieval de Diamante"
+    categoria: "rpg_armadura"
+    base: "diamond_chestplate"
+    cmd: 2003
+    color: "light_purple"
+    lore: ["Armadura · Nivel IV (Épico)", "Equipo de guerra de la era medieval.", "", "Set completo: +4 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "epico"
+    tier: "4"
+    oficio: "herreria"
+    nivel_req: 32
+    estilo: "med_diamond_cian"
+    pieza: "chest"
+    atributos: {defensa: 8.0, dureza: 1.0}
+    valor: 960
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a10_c{c}_chest", macro: false, colores: 6, modelo: 10, categoria: "Armadura medieval", pieza_nombre: "Peto"}
+  rpg_a10_legs:
+    nombre: "Pantalones Medieval de Diamante"
+    categoria: "rpg_armadura"
+    base: "diamond_leggings"
+    cmd: 2003
+    color: "light_purple"
+    lore: ["Armadura · Nivel IV (Épico)", "Equipo de guerra de la era medieval.", "", "Set completo: +4 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "epico"
+    tier: "4"
+    oficio: "herreria"
+    nivel_req: 32
+    estilo: "med_diamond_cian"
+    pieza: "legs"
+    atributos: {defensa: 6.0, dureza: 1.0}
+    valor: 960
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a10_c{c}_legs", macro: false, colores: 6, modelo: 10, categoria: "Armadura medieval", pieza_nombre: "Pantalones"}
+  rpg_a10_feet:
+    nombre: "Botas Medieval de Diamante"
+    categoria: "rpg_armadura"
+    base: "diamond_boots"
+    cmd: 2003
+    color: "light_purple"
+    lore: ["Armadura · Nivel IV (Épico)", "Equipo de guerra de la era medieval.", "", "Set completo: +4 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "epico"
+    tier: "4"
+    oficio: "herreria"
+    nivel_req: 32
+    estilo: "med_diamond_cian"
+    pieza: "feet"
+    atributos: {defensa: 3.0, dureza: 1.0}
+    valor: 960
+    mejora_material: "lingote_acero"
+    rpg: {funcion: "rpg:give/a10_c{c}_feet", macro: false, colores: 6, modelo: 10, categoria: "Armadura medieval", pieza_nombre: "Botas"}
+  rpg_a11_head:
+    nombre: "Casco Medieval de Netherite"
+    categoria: "rpg_armadura"
+    base: "netherite_helmet"
+    cmd: 2006
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Equipo de guerra de la era medieval.", "", "Set completo: +6 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "med_netherite_cian"
+    pieza: "head"
+    atributos: {defensa: 3.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a11_c{c}_head", macro: false, colores: 6, modelo: 11, categoria: "Armadura medieval", pieza_nombre: "Casco"}
+  rpg_a11_chest:
+    nombre: "Peto Medieval de Netherite"
+    categoria: "rpg_armadura"
+    base: "netherite_chestplate"
+    cmd: 2006
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Equipo de guerra de la era medieval.", "", "Set completo: +6 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "med_netherite_cian"
+    pieza: "chest"
+    atributos: {defensa: 9.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a11_c{c}_chest", macro: false, colores: 6, modelo: 11, categoria: "Armadura medieval", pieza_nombre: "Peto"}
+  rpg_a11_legs:
+    nombre: "Pantalones Medieval de Netherite"
+    categoria: "rpg_armadura"
+    base: "netherite_leggings"
+    cmd: 2006
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Equipo de guerra de la era medieval.", "", "Set completo: +6 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "med_netherite_cian"
+    pieza: "legs"
+    atributos: {defensa: 7.0, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a11_c{c}_legs", macro: false, colores: 6, modelo: 11, categoria: "Armadura medieval", pieza_nombre: "Pantalones"}
+  rpg_a11_feet:
+    nombre: "Botas Medieval de Netherite"
+    categoria: "rpg_armadura"
+    base: "netherite_boots"
+    cmd: 2006
+    color: "gold"
+    lore: ["Armadura · Nivel V (Legendario)", "Equipo de guerra de la era medieval.", "", "Set completo: +6 corazones", "Elige un color de estilo en el menú para obtener efectos de set."]
+    rareza: "legendario"
+    tier: "5"
+    oficio: "herreria"
+    nivel_req: 42
+    estilo: "med_netherite_cian"
+    pieza: "feet"
+    atributos: {defensa: 3.5, dureza: 1.0}
+    valor: 1500
+    mejora_material: "lingote_acero_negro"
+    rpg: {funcion: "rpg:give/a11_c{c}_feet", macro: false, colores: 6, modelo: 11, categoria: "Armadura medieval", pieza_nombre: "Botas"}
+  rpg_a12_chest:
+    nombre: "Peto Celta"
+    categoria: "rpg_armadura"
+    base: "leather_chestplate"
+    cmd: 4001
+    color: "green"
+    lore: ["Armadura · Nivel II (Poco común)", "Ropas ligeras de guerreros celtas.", "", "Set completo: +1.5 corazones", "Set completo (efectos):", "  • Velocidad I"]
+    rareza: "poco_comun"
+    tier: "2"
+    oficio: "armeria"
+    nivel_req: 12
+    estilo: "celta"
+    pieza: "chest"
+    atributos: {defensa: 5.0, dureza: 0.0}
+    valor: 240
+    mejora_material: "cuero_curtido"
+    rpg: {funcion: "rpg:give/a12_c{c}_chest", macro: false, colores: 1, modelo: 12, categoria: "Armadura celta", pieza_nombre: "Peto"}
+  rpg_a12_legs:
+    nombre: "Pantalones Celta"
+    categoria: "rpg_armadura"
+    base: "leather_leggings"
+    cmd: 4001
+    color: "green"
+    lore: ["Armadura · Nivel II (Poco común)", "Ropas ligeras de guerreros celtas.", "", "Set completo: +1.5 corazones", "Set completo (efectos):", "  • Velocidad I"]
+    rareza: "poco_comun"
+    tier: "2"
+    oficio: "armeria"
+    nivel_req: 12
+    estilo: "celta"
+    pieza: "legs"
+    atributos: {defensa: 3.5, dureza: 0.0}
+    valor: 240
+    mejora_material: "cuero_curtido"
+    rpg: {funcion: "rpg:give/a12_c{c}_legs", macro: false, colores: 1, modelo: 12, categoria: "Armadura celta", pieza_nombre: "Pantalones"}
+  rpg_a12_feet:
+    nombre: "Botas Celta"
+    categoria: "rpg_armadura"
+    base: "leather_boots"
+    cmd: 4001
+    color: "green"
+    lore: ["Armadura · Nivel II (Poco común)", "Ropas ligeras de guerreros celtas.", "", "Set completo: +1.5 corazones", "Set completo (efectos):", "  • Velocidad I"]
+    rareza: "poco_comun"
+    tier: "2"
+    oficio: "armeria"
+    nivel_req: 12
+    estilo: "celta"
+    pieza: "feet"
+    atributos: {defensa: 2.0, dureza: 0.0}
+    valor: 240
+    mejora_material: "cuero_curtido"
+    rpg: {funcion: "rpg:give/a12_c{c}_feet", macro: false, colores: 1, modelo: 12, categoria: "Armadura celta", pieza_nombre: "Botas"}

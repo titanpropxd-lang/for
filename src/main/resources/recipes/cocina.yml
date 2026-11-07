@@ -1,0 +1,114 @@
+# Generado por tools/gen_recipes.py — estación: cocina
+recetas:
+  estofado_taberna:
+    resultado: "estofado_taberna"
+    cantidad: 2
+    oficio: "cocina"
+    estacion: "cocina"
+    nivel: 3
+    tiempo: 3
+    xp: 10
+    xp_raza: 0
+    categoria: "Comida"
+    ingredientes: {"vanilla:COOKED_BEEF": 1, "vanilla:POTATO": 1, "vanilla:CARROT": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  pan_miel:
+    resultado: "pan_miel"
+    cantidad: 2
+    oficio: "cocina"
+    estacion: "cocina"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Comida"
+    ingredientes: {"vanilla:WHEAT": 3, "vanilla:HONEY_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  jarra_hidromiel:
+    resultado: "jarra_hidromiel"
+    cantidad: 1
+    oficio: "cocina"
+    estacion: "cocina"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Bebidas"
+    ingredientes: {"vanilla:HONEY_BOTTLE": 1, "vanilla:SUGAR": 1, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  pescado_ahumado:
+    resultado: "pescado_ahumado"
+    cantidad: 1
+    oficio: "cocina"
+    estacion: "cocina"
+    nivel: 8
+    tiempo: 3
+    xp: 19
+    xp_raza: 0
+    categoria: "Comida"
+    ingredientes: {"vanilla:COOKED_COD": 2, "vanilla:KELP": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  asado_jabali:
+    resultado: "asado_jabali"
+    cantidad: 1
+    oficio: "cocina"
+    estacion: "cocina"
+    nivel: 18
+    tiempo: 6
+    xp: 37
+    xp_raza: 0
+    categoria: "Comida"
+    ingredientes: {"vanilla:COOKED_PORKCHOP": 2, "vanilla:SWEET_BERRIES": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  tarta_bayas:
+    resultado: "tarta_bayas"
+    cantidad: 1
+    oficio: "cocina"
+    estacion: "cocina"
+    nivel: 14
+    tiempo: 6
+    xp: 30
+    xp_raza: 0
+    categoria: "Comida"
+    ingredientes: {"vanilla:SWEET_BERRIES": 3, "vanilla:EGG": 1, "vanilla:SUGAR": 1, "vanilla:WHEAT": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  sopa_marina:
+    resultado: "sopa_marina"
+    cantidad: 1
+    oficio: "cocina"
+    estacion: "cocina"
+    nivel: 12
+    tiempo: 6
+    xp: 27
+    xp_raza: 0
+    categoria: "Comida"
+    ingredientes: {"vanilla:COOKED_COD": 2, "vanilla:KELP": 2}
+    no_consumir: []
+    raza: ["triton"]
+    linaje: 0
+  ceviche_triton:
+    resultado: "ceviche_triton"
+    cantidad: 1
+    oficio: "cocina"
+    estacion: "cocina"
+    nivel: 22
+    tiempo: 6
+    xp: 45
+    xp_raza: 5
+    categoria: "Comida"
+    ingredientes: {"vanilla:COOKED_SALMON": 2, "vanilla:KELP": 2, "mat_perla_abisal": 1}
+    no_consumir: []
+    raza: ["triton"]
+    linaje: 0
