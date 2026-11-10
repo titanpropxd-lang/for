@@ -1,0 +1,38 @@
+# Generado por tools/gen_items.py — categoría: mochila
+items:
+  mochila_pequena:
+    nombre: "Mochila pequeña"
+    categoria: "mochila"
+    base: "rabbit_hide"
+    cmd: 5700
+    lore: ["Mochila pequeña de cuero.", "Clic derecho para abrirla.", "Guarda sus objetos al cerrarla."]
+    rareza: "comun"
+    oficio: "armeria"
+    nivel_req: 8
+    atributos: {slots: 9}
+    valor: 120
+    custom_data: {rz_item: "mochila_pequena"}
+  mochila_mediana:
+    nombre: "Mochila mediana"
+    categoria: "mochila"
+    base: "rabbit_hide"
+    cmd: 5701
+    lore: ["Mochila mediana de cuero.", "Clic derecho para abrirla.", "Guarda sus objetos al cerrarla."]
+    rareza: "poco_comun"
+    oficio: "armeria"
+    nivel_req: 20
+    atributos: {slots: 18}
+    valor: 400
+    custom_data: {rz_item: "mochila_mediana"}
+  mochila_grande:
+    nombre: "Mochila grande"
+    categoria: "mochila"
+    base: "rabbit_hide"
+    cmd: 5702
+    lore: ["Mochila grande de cuero.", "Clic derecho para abrirla.", "Guarda sus objetos al cerrarla."]
+    rareza: "raro"
+    oficio: "armeria"
+    nivel_req: 35
+    atributos: {slots: 27}
+    valor: 1200
+    custom_data: {rz_item: "mochila_grande"}
