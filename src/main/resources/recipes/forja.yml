@@ -1,0 +1,226 @@
+# Generado por tools/gen_recipes.py — estación: forja
+recetas:
+  lingote_cobre:
+    resultado: "lingote_cobre"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 1
+    tiempo: 3
+    xp: 7
+    xp_raza: 0
+    categoria: "Lingotes"
+    ingredientes: {"vanilla:COPPER_INGOT": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  placa_cobre:
+    resultado: "placa_cobre"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 1
+    tiempo: 3
+    xp: 7
+    xp_raza: 0
+    categoria: "Placas"
+    ingredientes: {"lingote_cobre": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  lingote_bronce:
+    resultado: "lingote_bronce"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Lingotes"
+    ingredientes: {"lingote_cobre": 2, "vanilla:IRON_INGOT": 1, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  placa_bronce:
+    resultado: "placa_bronce"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Placas"
+    ingredientes: {"lingote_bronce": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  lingote_hierro_forjado:
+    resultado: "lingote_hierro_forjado"
+    cantidad: 2
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Lingotes"
+    ingredientes: {"vanilla:IRON_INGOT": 3, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  placa_hierro_forjado:
+    resultado: "placa_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Placas"
+    ingredientes: {"lingote_hierro_forjado": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  lingote_acero:
+    resultado: "lingote_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 0
+    categoria: "Lingotes"
+    ingredientes: {"lingote_hierro_forjado": 2, "fuel": 3}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  placa_acero:
+    resultado: "placa_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 0
+    categoria: "Placas"
+    ingredientes: {"lingote_acero": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  lingote_plata:
+    resultado: "lingote_plata"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 25
+    tiempo: 6
+    xp: 50
+    xp_raza: 0
+    categoria: "Lingotes"
+    ingredientes: {"vanilla:GOLD_INGOT": 2, "vanilla:QUARTZ": 1, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  placa_plata:
+    resultado: "placa_plata"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 25
+    tiempo: 6
+    xp: 50
+    xp_raza: 0
+    categoria: "Placas"
+    ingredientes: {"lingote_plata": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  lingote_acero_negro:
+    resultado: "lingote_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 10
+    categoria: "Lingotes"
+    ingredientes: {"lingote_acero": 2, "mat_montana": 1, "mat_hueso_helado": 1, "fuel": 4}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  placa_acero_negro:
+    resultado: "placa_acero_negro"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 0
+    categoria: "Placas"
+    ingredientes: {"lingote_acero_negro": 2, "fuel": 1}
+    no_consumir: []
+    raza: ["enano", "vampiro"]
+    linaje: 0
+  lingote_mithril:
+    resultado: "lingote_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 25
+    categoria: "Lingotes"
+    ingredientes: {"lingote_acero_negro": 2, "lingote_plata": 2, "mat_cristal_cueva": 1, "fuel": 5}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  placa_mithril:
+    resultado: "placa_mithril"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 40
+    tiempo: 12
+    xp: 77
+    xp_raza: 0
+    categoria: "Placas"
+    ingredientes: {"lingote_mithril": 2, "fuel": 1}
+    no_consumir: []
+    raza: ["enano"]
+    linaje: 0
+  lingote_adamantita:
+    resultado: "lingote_adamantita"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 50
+    tiempo: 12
+    xp: 95
+    xp_raza: 50
+    categoria: "Lingotes"
+    ingredientes: {"lingote_mithril": 2, "mat_escamas_volcan": 2, "mat_montana": 1, "fuel": 6}
+    no_consumir: []
+    raza: ["enano", "draconiano"]
+    linaje: 0
+  placa_adamantita:
+    resultado: "placa_adamantita"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "forja"
+    nivel: 50
+    tiempo: 12
+    xp: 95
+    xp_raza: 0
+    categoria: "Placas"
+    ingredientes: {"lingote_adamantita": 2, "fuel": 1}
+    no_consumir: []
+    raza: ["enano", "draconiano"]
+    linaje: 0

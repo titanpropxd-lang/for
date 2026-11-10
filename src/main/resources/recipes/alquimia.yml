@@ -1,0 +1,184 @@
+# Generado por tools/gen_recipes.py — estación: alquimia
+recetas:
+  elixir_vida:
+    resultado: "elixir_vida"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Elixires"
+    ingredientes: {"vanilla:GLISTERING_MELON_SLICE": 2, "vanilla:SUGAR": 1, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  elixir_fuerza:
+    resultado: "elixir_fuerza"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 25
+    tiempo: 6
+    xp: 50
+    xp_raza: 0
+    categoria: "Elixires"
+    ingredientes: {"vanilla:BLAZE_POWDER": 2, "gema_rubi": 1, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  elixir_velocidad:
+    resultado: "elixir_velocidad"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 12
+    tiempo: 6
+    xp: 27
+    xp_raza: 0
+    categoria: "Elixires"
+    ingredientes: {"vanilla:SUGAR": 3, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  elixir_noche:
+    resultado: "elixir_noche"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 0
+    categoria: "Elixires"
+    ingredientes: {"vanilla:GOLDEN_CARROT": 1, "vanilla:SPIDER_EYE": 1, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  elixir_sangre:
+    resultado: "elixir_sangre"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 35
+    tiempo: 9
+    xp: 68
+    xp_raza: 15
+    categoria: "Elixires"
+    ingredientes: {"mat_esencia_pantano": 1, "gema_rubi": 1, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: ["vampiro"]
+    linaje: 0
+  elixir_marea:
+    resultado: "elixir_marea"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 22
+    tiempo: 6
+    xp: 45
+    xp_raza: 0
+    categoria: "Elixires"
+    ingredientes: {"mat_perla_abisal": 1, "vanilla:KELP": 4, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: ["triton"]
+    linaje: 0
+  venda:
+    resultado: "venda"
+    cantidad: 2
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 2
+    tiempo: 3
+    xp: 9
+    xp_raza: 0
+    categoria: "Curas"
+    ingredientes: {"vanilla:PAPER": 2, "vanilla:STRING": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  venda_reforzada:
+    resultado: "venda_reforzada"
+    cantidad: 2
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 15
+    tiempo: 6
+    xp: 32
+    xp_raza: 0
+    categoria: "Curas"
+    ingredientes: {"vanilla:PAPER": 2, "seda": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  antidoto:
+    resultado: "antidoto"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 6
+    tiempo: 3
+    xp: 16
+    xp_raza: 0
+    categoria: "Curas"
+    ingredientes: {"vanilla:HONEY_BOTTLE": 1, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  antidoto_mayor:
+    resultado: "antidoto_mayor"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 25
+    tiempo: 6
+    xp: 50
+    xp_raza: 0
+    categoria: "Curas"
+    ingredientes: {"vanilla:HONEY_BOTTLE": 1, "mat_esencia_pantano": 1, "gema_amatista": 1, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  aceite_fuego:
+    resultado: "aceite_fuego"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 0
+    categoria: "Aceites"
+    ingredientes: {"vanilla:BLAZE_POWDER": 2, "vanilla:COAL": 1, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  aceite_veneno:
+    resultado: "aceite_veneno"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 0
+    categoria: "Aceites"
+    ingredientes: {"mat_esencia_pantano": 1, "vanilla:SPIDER_EYE": 1, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  aceite_escarcha:
+    resultado: "aceite_escarcha"
+    cantidad: 1
+    oficio: "alquimia"
+    estacion: "alquimia"
+    nivel: 22
+    tiempo: 6
+    xp: 45
+    xp_raza: 0
+    categoria: "Aceites"
+    ingredientes: {"mat_hueso_helado": 1, "vanilla:PACKED_ICE": 1, "vanilla:GLASS_BOTTLE": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0

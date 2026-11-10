@@ -1,0 +1,72 @@
+# Generado por tools/gen_recipes.py — estación: cartografia
+recetas:
+  pergamino_velocidad:
+    resultado: "pergamino_velocidad"
+    cantidad: 1
+    oficio: "joyeria"
+    estacion: "cartografia"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Pergaminos"
+    ingredientes: {"vanilla:PAPER": 2, "vanilla:INK_SAC": 1, "gema_topacio": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  pergamino_vision:
+    resultado: "pergamino_vision"
+    cantidad: 1
+    oficio: "joyeria"
+    estacion: "cartografia"
+    nivel: 15
+    tiempo: 6
+    xp: 32
+    xp_raza: 0
+    categoria: "Pergaminos"
+    ingredientes: {"vanilla:PAPER": 2, "vanilla:INK_SAC": 1, "gema_onice": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  pergamino_resistencia:
+    resultado: "pergamino_resistencia"
+    cantidad: 1
+    oficio: "joyeria"
+    estacion: "cartografia"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 0
+    categoria: "Pergaminos"
+    ingredientes: {"vanilla:PAPER": 2, "vanilla:INK_SAC": 1, "gema_zafiro": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  pergamino_fuerza:
+    resultado: "pergamino_fuerza"
+    cantidad: 1
+    oficio: "joyeria"
+    estacion: "cartografia"
+    nivel: 25
+    tiempo: 6
+    xp: 50
+    xp_raza: 0
+    categoria: "Pergaminos"
+    ingredientes: {"vanilla:PAPER": 2, "vanilla:INK_SAC": 1, "gema_rubi": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  pergamino_regeneracion:
+    resultado: "pergamino_regeneracion"
+    cantidad: 1
+    oficio: "joyeria"
+    estacion: "cartografia"
+    nivel: 30
+    tiempo: 9
+    xp: 59
+    xp_raza: 0
+    categoria: "Pergaminos"
+    ingredientes: {"vanilla:PAPER": 2, "vanilla:INK_SAC": 1, "gema_esmeralda": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0

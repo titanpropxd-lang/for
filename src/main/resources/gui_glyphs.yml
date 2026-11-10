@@ -1,0 +1,42 @@
+glyphs:
+  forge:yunque: 57344
+  forge:forja: 57345
+  forge:armeria: 57346
+  forge:carpinteria: 57347
+  forge:joyeria: 57348
+  forge:alquimia: 57349
+  forge:cocina: 57350
+  forge:cartografia: 57351
+  forge:canteria: 57352
+  forge:afilado: 57353
+  forge:compostera: 57354
+  forge:mesa_materiales: 57355
+  forge:mesa_objetos: 57356
+  hub:mesa: 57357
+  hub:yunque: 57358
+  hub:forja: 57359
+  hub:armeria: 57360
+  hub:carpinteria: 57361
+  hub:joyeria: 57362
+  hub:alquimia: 57363
+  hub:cocina: 57364
+  hub:cartografia: 57365
+  hub:canteria: 57366
+  hub:afilado: 57367
+  hub:compostera: 57368
+  oficios: 57369
+  mochila: 57370
+layouts:
+  hub:mesa: OMV
+  hub:afilado: OV
+  hub:alquimia: OV
+  hub:armeria: OMV
+  hub:canteria: OV
+  hub:carpinteria: OM
+  hub:cartografia: OV
+  hub:cocina: OV
+  hub:compostera: O
+  hub:forja: FV
+  hub:joyeria: OMV
+  hub:yunque: OMV
+desplazamiento: 63496
