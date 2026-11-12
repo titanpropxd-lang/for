@@ -1,0 +1,223 @@
+package com.servidor.forja;
+
+import org.bukkit.block.Block;
+import org.bukkit.Bukkit;
+import org.bukkit.Location;
+import org.bukkit.NamespacedKey;
+import org.bukkit.entity.Entity;
+import org.bukkit.entity.Display;
+import org.bukkit.entity.ItemDisplay;
+import org.bukkit.entity.ItemDisplay.ItemDisplayTransform;
+import org.bukkit.persistence.PersistentDataType;
+import org.bukkit.util.Transformation;
+import org.joml.Quaternionf;
+import org.joml.Vector3f;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.logging.Level;
+
+/** Registro persistente de bloques que son estaciones de trabajo (evita que cualquier yunque sirva). */
+public final class StationManager {
+    private final ForjaPlugin plugin;
+    private final Map<String, String> map = new ConcurrentHashMap<>();
+    private NamespacedKey visualKey;
+
+    public StationManager(ForjaPlugin plugin) {
+        this.plugin = plugin;
+        this.visualKey = new NamespacedKey(plugin, "station_visual");
+    }
+
+    private static String key(String world, int x, int y, int z) {
+        return world + ";" + x + ";" + y + ";" + z;
+    }
+
+    private static String key(Block b) {
+        return key(b.getWorld().getName(), b.getX(), b.getY(), b.getZ());
+    }
+
+    public void load() {
+        map.clear();
+        try {
+            Map<String, String> m = plugin.db.query(c -> {
+                Map<String, String> out = new HashMap<>();
+                try (Statement s = c.createStatement(); ResultSet rs = s.executeQuery("SELECT world,x,y,z,type FROM stations")) {
+                    while (rs.next()) out.put(key(rs.getString(1), rs.getInt(2), rs.getInt(3), rs.getInt(4)), rs.getString(5));
+                }
+                return out;
+            }).join();
+            map.putAll(m);
+            // Reconstruye el modelo en chunks que ya estén cargados; los ItemDisplay
+            // existentes se conservan en el propio mundo y no se duplican.
+            for (org.bukkit.World world : Bukkit.getWorlds()) {
+                for (String k : map.keySet()) {
+                    String[] a = k.split(";", 4);
+                    if (a.length != 4 || !a[0].equals(world.getName())) continue;
+                    int x = Integer.parseInt(a[1]), z = Integer.parseInt(a[3]);
+                    if (world.isChunkLoaded(x >> 4, z >> 4)) ensureVisual(world.getBlockAt(x, Integer.parseInt(a[2]), z));
+                }
+            }
+        } catch (Exception e) {
+            plugin.getLogger().log(Level.SEVERE, "No se pudieron cargar las estaciones", e);
+        }
+    }
+
+    public int count() {
+        return map.size();
+    }
+
+    /** Reconstruye el modelo de las estaciones de un chunk (las entidades del chunk ya están cargadas). */
+    public void refreshChunk(org.bukkit.World world, int cx, int cz) {
+        final String w = world.getName();
+        Bukkit.getScheduler().runTaskLater(plugin, () -> {
+            for (String k : map.keySet()) {
+                String[] a = k.split(";", 4);
+                if (a.length != 4 || !a[0].equals(w)) continue;
+                int x = Integer.parseInt(a[1]), z = Integer.parseInt(a[3]);
+                if ((x >> 4) != cx || (z >> 4) != cz) continue;
+                Block b = world.getBlockAt(x, Integer.parseInt(a[2]), z);
+                if (!isModeled(typeAt(b))) continue;
+                removeVisual(b);   // también elimina duplicados o visuales antiguos sin brillo
+                ensureVisual(b);
+            }
+        }, 2L);
+    }
+
+    /** Reconstruye el modelo de TODAS las estaciones en chunks cargados. Devuelve cuántas. */
+    public int rebuildAll() {
+        int n = 0;
+        for (String k : new java.util.ArrayList<>(map.keySet())) {
+            String[] a = k.split(";", 4);
+            org.bukkit.World world = a.length == 4 ? Bukkit.getWorld(a[0]) : null;
+            if (world == null) continue;
+            int x = Integer.parseInt(a[1]), z = Integer.parseInt(a[3]);
+            if (!world.isChunkLoaded(x >> 4, z >> 4)) continue;
+            Block b = world.getBlockAt(x, Integer.parseInt(a[2]), z);
+            if (!isModeled(typeAt(b))) continue;
+            removeVisual(b);
+            ensureVisual(b);
+            n++;
+        }
+        return n;
+    }
+
+    /** Texto de diagnóstico del modelo clásico (ItemDisplay) de una estación. */
+    public String describeVisual(Block b) {
+        String type = typeAt(b);
+        if (type == null) return "no es una estación registrada";
+        StringBuilder sb = new StringBuilder("tipo=" + type);
+        sb.append(", BetterModel=").append(plugin.stationModels != null && plugin.stationModels.hasTracker(b) ? "sí" : "no");
+        String id = key(b);
+        int found = 0;
+        for (Entity entity : b.getWorld().getNearbyEntities(b.getLocation().add(0.5, 0.5, 0.5), 1.5, 2.5, 1.5)) {
+            if (entity instanceof ItemDisplay d && id.equals(d.getPersistentDataContainer().get(visualKey, PersistentDataType.STRING))) {
+                found++;
+                org.bukkit.inventory.ItemStack st = d.getItemStack();
+                Display.Brightness br = d.getBrightness();
+                sb.append(" | display#").append(found).append(": item=").append(st == null ? "null" : st.getType().name())
+                        .append(" cmd=").append(st != null && st.hasItemMeta() && st.getItemMeta().hasCustomModelData() ? st.getItemMeta().getCustomModelData() : -1)
+                        .append(" brillo=").append(br == null ? "NINGUNO (negro)" : br.getBlockLight() + "/" + br.getSkyLight())
+                        .append(" y=").append(String.format("%.2f", d.getLocation().getY() - b.getY()));
+            }
+        }
+        if (found == 0) sb.append(" | sin ItemDisplay clásico");
+        return sb.toString();
+    }
+
+    public String typeAt(Block b) {
+        return map.get(key(b));
+    }
+
+    public Map<String, String> snapshot() {
+        return new HashMap<>(map);
+    }
+
+    public void add(Block b, String type) {
+        map.put(key(b), type);
+        if (isModeled(type)) ensureVisual(b);
+        if (type != null && type.startsWith("fundicion") && plugin.foundry != null) plugin.foundry.ensure(b, type);
+        if ("curtideria".equals(type) && plugin.tannery != null) plugin.tannery.ensure(b);
+        final String w = b.getWorld().getName();
+        final int x = b.getX(), y = b.getY(), z = b.getZ();
+        plugin.db.run(c -> {
+            try (PreparedStatement ps = c.prepareStatement(
+                    "INSERT INTO stations(world,x,y,z,type) VALUES(?,?,?,?,?) ON CONFLICT(world,x,y,z) DO UPDATE SET type=excluded.type")) {
+                ps.setString(1, w);
+                ps.setInt(2, x);
+                ps.setInt(3, y);
+                ps.setInt(4, z);
+                ps.setString(5, type);
+                ps.executeUpdate();
+            }
+        });
+    }
+
+    public void remove(Block b) {
+        if (map.remove(key(b)) == null) return;
+        removeVisual(b);
+        if (plugin.foundry != null) plugin.foundry.clear(b);
+        if (plugin.tannery != null) plugin.tannery.clear(b);
+        if (plugin.stationModels != null) plugin.stationModels.remove(b);
+        final String w = b.getWorld().getName();
+        final int x = b.getX(), y = b.getY(), z = b.getZ();
+        plugin.db.run(c -> {
+            try (PreparedStatement ps = c.prepareStatement("DELETE FROM stations WHERE world=? AND x=? AND y=? AND z=?")) {
+                ps.setString(1, w);
+                ps.setInt(2, x);
+                ps.setInt(3, y);
+                ps.setInt(4, z);
+                ps.executeUpdate();
+            }
+        });
+    }
+
+    private boolean isModeled(String type) { return type != null && plugin.items.get("estacion_" + type) != null; }
+
+    /** Elimina el modelo antiguo (ItemDisplay) cuando la estación pasa a dibujarse con BetterModel. */
+    public void hideLegacyVisual(Block b) {
+        removeVisual(b);
+    }
+
+    /** Modelos 3D de estaciones anclados al bloque físico. */
+    private void ensureVisual(Block b) {
+        String type = typeAt(b);
+        if (!isModeled(type)) return;
+        if (plugin.stationModels != null && plugin.stationModels.handles(type)) return; // lo dibuja BetterModel
+        String id = key(b);
+        // El modelo está DENTRO del bloque sólido de la estación: sin brillo propio la luz es 0 y se ve todo negro.
+        // El modelo (16 = 1 bloque) tiene su base en y=0, así que el centro del display va a media altura del bloque.
+        Location at = b.getLocation().add(0.5, 0.5, 0.5);
+        at.setYaw(plugin.stationModels != null ? plugin.stationModels.yawOf(b) : 0f);
+        at.setPitch(0f);
+        for (Entity entity : b.getWorld().getNearbyEntities(b.getLocation().add(0.5, 0.5, 0.5), 1.2, 2.0, 1.2)) {
+            if (entity instanceof ItemDisplay display && id.equals(display.getPersistentDataContainer().get(visualKey, PersistentDataType.STRING))) {
+                // visual ya existente (de versiones anteriores): se corrige posición, escala, giro y brillo
+                display.teleport(at);
+                display.setBrightness(new Display.Brightness(15, 15));
+                display.setTransformation(new Transformation(new Vector3f(0, 0, 0), new Quaternionf(), new Vector3f(1, 1, 1), new Quaternionf()));
+                display.setItemStack(plugin.items.basic("estacion_" + type, 1));
+                return;
+            }
+        }
+        b.getWorld().spawn(at, ItemDisplay.class, d -> {
+            d.setItemStack(plugin.items.basic("estacion_" + type, 1));
+            d.setItemDisplayTransform(ItemDisplayTransform.FIXED);
+            d.setPersistent(true);
+            d.setInvulnerable(true);
+            d.setBrightness(new Display.Brightness(15, 15));
+            d.getPersistentDataContainer().set(visualKey, PersistentDataType.STRING, id);
+            d.setTransformation(new Transformation(new Vector3f(0, 0, 0), new Quaternionf(), new Vector3f(1, 1, 1), new Quaternionf()));
+        });
+    }
+
+    private void removeVisual(Block b) {
+        String id = key(b);
+        for (Entity entity : b.getWorld().getNearbyEntities(b.getLocation().add(0.5, 0.5, 0.5), 1.5, 2.5, 1.5)) {
+            if (entity instanceof ItemDisplay display && id.equals(display.getPersistentDataContainer().get(visualKey, PersistentDataType.STRING))) display.remove();
+        }
+    }
+}

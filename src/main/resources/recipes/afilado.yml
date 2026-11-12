@@ -1,0 +1,44 @@
+# Generado por tools/gen_recipes.py — estación: afilado
+recetas:
+  piedra_afilar_basica:
+    resultado: "piedra_afilar_basica"
+    cantidad: 2
+    oficio: "herreria"
+    estacion: "afilado"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Piedras de afilar"
+    ingredientes: {"vanilla:FLINT": 2, "vanilla:COAL": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  piedra_afilar_fina:
+    resultado: "piedra_afilar_fina"
+    cantidad: 2
+    oficio: "herreria"
+    estacion: "afilado"
+    nivel: 25
+    tiempo: 6
+    xp: 50
+    xp_raza: 0
+    categoria: "Piedras de afilar"
+    ingredientes: {"vanilla:FLINT": 2, "gema_topacio": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  piedra_afilar_runica:
+    resultado: "piedra_afilar_runica"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "afilado"
+    nivel: 35
+    tiempo: 9
+    xp: 68
+    xp_raza: 0
+    categoria: "Piedras de afilar"
+    ingredientes: {"vanilla:FLINT": 2, "gema_rubi": 1, "mat_cristal_cueva": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
