@@ -1,0 +1,114 @@
+# Generado por tools/gen_recipes.py — estación: fundicion_t1
+recetas:
+  lingote_cobre:
+    resultado: "lingote_cobre"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "fundicion_t1"
+    nivel: 1
+    tiempo: 3
+    xp: 7
+    xp_raza: 0
+    categoria: "Lingotes"
+    ingredientes: {"vanilla:COPPER_INGOT": 2, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  lingote_bronce:
+    resultado: "lingote_bronce"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "fundicion_t1"
+    nivel: 5
+    tiempo: 3
+    xp: 14
+    xp_raza: 0
+    categoria: "Lingotes"
+    ingredientes: {"lingote_cobre": 2, "vanilla:IRON_INGOT": 1, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  lingote_hierro_forjado:
+    resultado: "lingote_hierro_forjado"
+    cantidad: 2
+    oficio: "herreria"
+    estacion: "fundicion_t1"
+    nivel: 10
+    tiempo: 3
+    xp: 23
+    xp_raza: 0
+    categoria: "Lingotes"
+    ingredientes: {"vanilla:IRON_INGOT": 3, "fuel": 1}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  lingote_acero:
+    resultado: "lingote_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "fundicion_t1"
+    nivel: 20
+    tiempo: 6
+    xp: 41
+    xp_raza: 0
+    categoria: "Lingotes"
+    ingredientes: {"lingote_hierro_forjado": 2, "fuel": 3}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  metal_fundido_cobre:
+    resultado: "metal_fundido_cobre"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "fundicion_t1"
+    nivel: 1
+    tiempo: 8
+    xp: 7
+    xp_raza: 0
+    categoria: "Metal líquido"
+    ingredientes: {"lingote_cobre": 2, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  metal_fundido_bronce:
+    resultado: "metal_fundido_bronce"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "fundicion_t1"
+    nivel: 5
+    tiempo: 8
+    xp: 14
+    xp_raza: 0
+    categoria: "Metal líquido"
+    ingredientes: {"lingote_bronce": 2, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  metal_fundido_hierro_forjado:
+    resultado: "metal_fundido_hierro_forjado"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "fundicion_t1"
+    nivel: 10
+    tiempo: 8
+    xp: 23
+    xp_raza: 0
+    categoria: "Metal líquido"
+    ingredientes: {"lingote_hierro_forjado": 2, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0
+  metal_fundido_acero:
+    resultado: "metal_fundido_acero"
+    cantidad: 1
+    oficio: "herreria"
+    estacion: "fundicion_t1"
+    nivel: 20
+    tiempo: 8
+    xp: 41
+    xp_raza: 0
+    categoria: "Metal líquido"
+    ingredientes: {"lingote_acero": 2, "fuel": 2}
+    no_consumir: []
+    raza: []
+    linaje: 0

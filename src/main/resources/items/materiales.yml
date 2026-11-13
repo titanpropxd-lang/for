@@ -1,0 +1,1249 @@
+# Generado por tools/gen_items.py — categoría: material
+items:
+  lingote_cobre:
+    nombre: "Lingote de cobre"
+    categoria: "material"
+    base: "brick"
+    cmd: 5001
+    lore: ["Lingote de cobre.", "Material de forja."]
+    rareza: "comun"
+    tier: "cobre"
+    oficio: "herreria"
+    nivel_req: 1
+    valor: 5
+    custom_data: {rz_item: "lingote_cobre"}
+  lingote_bronce:
+    nombre: "Lingote de bronce"
+    categoria: "material"
+    base: "brick"
+    cmd: 5002
+    lore: ["Lingote de bronce.", "Material de forja."]
+    rareza: "comun"
+    tier: "bronce"
+    oficio: "herreria"
+    nivel_req: 5
+    valor: 10
+    custom_data: {rz_item: "lingote_bronce"}
+  lingote_hierro_forjado:
+    nombre: "Lingote de hierro forjado"
+    categoria: "material"
+    base: "brick"
+    cmd: 5003
+    lore: ["Lingote de hierro forjado.", "Material de forja."]
+    rareza: "comun"
+    tier: "hierro_forjado"
+    oficio: "herreria"
+    nivel_req: 10
+    valor: 20
+    custom_data: {rz_item: "lingote_hierro_forjado"}
+  lingote_acero:
+    nombre: "Lingote de acero"
+    categoria: "material"
+    base: "brick"
+    cmd: 5004
+    lore: ["Lingote de acero.", "Material de forja."]
+    rareza: "poco_comun"
+    tier: "acero"
+    oficio: "herreria"
+    nivel_req: 20
+    valor: 50
+    custom_data: {rz_item: "lingote_acero"}
+  lingote_plata:
+    nombre: "Lingote de plata"
+    categoria: "material"
+    base: "brick"
+    cmd: 5005
+    lore: ["Lingote de plata.", "Material de forja."]
+    rareza: "poco_comun"
+    tier: "plata"
+    oficio: "herreria"
+    nivel_req: 25
+    valor: 70
+    custom_data: {rz_item: "lingote_plata"}
+  lingote_acero_negro:
+    nombre: "Lingote de acero negro"
+    categoria: "material"
+    base: "brick"
+    cmd: 5006
+    lore: ["Lingote de acero negro.", "Material de forja."]
+    rareza: "raro"
+    tier: "acero_negro"
+    oficio: "herreria"
+    nivel_req: 30
+    valor: 125
+    custom_data: {rz_item: "lingote_acero_negro"}
+  lingote_mithril:
+    nombre: "Lingote de mithril"
+    categoria: "material"
+    base: "brick"
+    cmd: 5007
+    lore: ["Lingote de mithril.", "Material de forja."]
+    rareza: "epico"
+    tier: "mithril"
+    oficio: "herreria"
+    nivel_req: 40
+    valor: 300
+    custom_data: {rz_item: "lingote_mithril"}
+  lingote_adamantita:
+    nombre: "Lingote de adamantita"
+    categoria: "material"
+    base: "brick"
+    cmd: 5008
+    lore: ["Lingote de adamantita.", "Material de forja."]
+    rareza: "legendario"
+    tier: "adamantita"
+    oficio: "herreria"
+    nivel_req: 50
+    valor: 600
+    custom_data: {rz_item: "lingote_adamantita"}
+  placa_cobre:
+    nombre: "Placa de cobre"
+    categoria: "material"
+    base: "flint"
+    cmd: 5009
+    lore: ["Placa laminada de cobre.", "Para armaduras y escudos."]
+    rareza: "comun"
+    tier: "cobre"
+    oficio: "herreria"
+    nivel_req: 1
+    valor: 8
+    custom_data: {rz_item: "placa_cobre"}
+  placa_bronce:
+    nombre: "Placa de bronce"
+    categoria: "material"
+    base: "flint"
+    cmd: 5010
+    lore: ["Placa laminada de bronce.", "Para armaduras y escudos."]
+    rareza: "comun"
+    tier: "bronce"
+    oficio: "herreria"
+    nivel_req: 5
+    valor: 16
+    custom_data: {rz_item: "placa_bronce"}
+  placa_hierro_forjado:
+    nombre: "Placa de hierro forjado"
+    categoria: "material"
+    base: "flint"
+    cmd: 5011
+    lore: ["Placa laminada de hierro forjado.", "Para armaduras y escudos."]
+    rareza: "comun"
+    tier: "hierro_forjado"
+    oficio: "herreria"
+    nivel_req: 10
+    valor: 32
+    custom_data: {rz_item: "placa_hierro_forjado"}
+  placa_acero:
+    nombre: "Placa de acero"
+    categoria: "material"
+    base: "flint"
+    cmd: 5012
+    lore: ["Placa laminada de acero.", "Para armaduras y escudos."]
+    rareza: "poco_comun"
+    tier: "acero"
+    oficio: "herreria"
+    nivel_req: 20
+    valor: 80
+    custom_data: {rz_item: "placa_acero"}
+  placa_plata:
+    nombre: "Placa de plata"
+    categoria: "material"
+    base: "flint"
+    cmd: 5013
+    lore: ["Placa laminada de plata.", "Para armaduras y escudos."]
+    rareza: "poco_comun"
+    tier: "plata"
+    oficio: "herreria"
+    nivel_req: 25
+    valor: 112
+    custom_data: {rz_item: "placa_plata"}
+  placa_acero_negro:
+    nombre: "Placa de acero negro"
+    categoria: "material"
+    base: "flint"
+    cmd: 5014
+    lore: ["Placa laminada de acero negro.", "Para armaduras y escudos."]
+    rareza: "raro"
+    tier: "acero_negro"
+    oficio: "herreria"
+    nivel_req: 30
+    valor: 200
+    custom_data: {rz_item: "placa_acero_negro"}
+  placa_mithril:
+    nombre: "Placa de mithril"
+    categoria: "material"
+    base: "flint"
+    cmd: 5015
+    lore: ["Placa laminada de mithril.", "Para armaduras y escudos."]
+    rareza: "epico"
+    tier: "mithril"
+    oficio: "herreria"
+    nivel_req: 40
+    valor: 480
+    custom_data: {rz_item: "placa_mithril"}
+  placa_adamantita:
+    nombre: "Placa de adamantita"
+    categoria: "material"
+    base: "flint"
+    cmd: 5016
+    lore: ["Placa laminada de adamantita.", "Para armaduras y escudos."]
+    rareza: "legendario"
+    tier: "adamantita"
+    oficio: "herreria"
+    nivel_req: 50
+    valor: 960
+    custom_data: {rz_item: "placa_adamantita"}
+  mat_montana:
+    nombre: "Hierro de montaña"
+    categoria: "material"
+    base: "echo_shard"
+    cmd: 5017
+    lore: ["Extraído de picos remotos.", "Material regional único."]
+    rareza: "raro"
+    valor: 150
+    custom_data: {rz_item: "mat_montana", rz_mat: "montana"}
+  mat_cristal_cueva:
+    nombre: "Cristal de cueva"
+    categoria: "material"
+    base: "echo_shard"
+    cmd: 5018
+    lore: ["Late con luz propia.", "Material regional único."]
+    rareza: "raro"
+    valor: 150
+    custom_data: {rz_item: "mat_cristal_cueva", rz_mat: "cristal_cueva"}
+  mat_escamas_volcan:
+    nombre: "Escamas de volcán"
+    categoria: "material"
+    base: "echo_shard"
+    cmd: 5019
+    lore: ["Aún conservan calor.", "Material regional único."]
+    rareza: "raro"
+    valor: 150
+    custom_data: {rz_item: "mat_escamas_volcan", rz_mat: "escamas_volcan"}
+  mat_madera_ancestral:
+    nombre: "Madera ancestral"
+    categoria: "material"
+    base: "echo_shard"
+    cmd: 5020
+    lore: ["De árboles milenarios.", "Material regional único."]
+    rareza: "raro"
+    valor: 150
+    custom_data: {rz_item: "mat_madera_ancestral", rz_mat: "madera_ancestral"}
+  mat_perla_abisal:
+    nombre: "Perla abisal"
+    categoria: "material"
+    base: "echo_shard"
+    cmd: 5021
+    lore: ["Recogida en las profundidades.", "Material regional único."]
+    rareza: "raro"
+    valor: 150
+    custom_data: {rz_item: "mat_perla_abisal", rz_mat: "perla_abisal"}
+  mat_esencia_pantano:
+    nombre: "Esencia de pantano"
+    categoria: "material"
+    base: "echo_shard"
+    cmd: 5022
+    lore: ["Viscosa y fétida.", "Material regional único."]
+    rareza: "raro"
+    valor: 150
+    custom_data: {rz_item: "mat_esencia_pantano", rz_mat: "esencia_pantano"}
+  mat_hueso_helado:
+    nombre: "Hueso helado"
+    categoria: "material"
+    base: "echo_shard"
+    cmd: 5023
+    lore: ["Nunca se descongela.", "Material regional único."]
+    rareza: "raro"
+    valor: 150
+    custom_data: {rz_item: "mat_hueso_helado", rz_mat: "hueso_helado"}
+  cuero_curtido:
+    nombre: "Cuero curtido"
+    categoria: "material"
+    base: "rabbit_hide"
+    cmd: 5024
+    lore: ["Cuero trabajado."]
+    rareza: "comun"
+    valor: 6
+    custom_data: {rz_item: "cuero_curtido"}
+  seda:
+    nombre: "Seda"
+    categoria: "material"
+    base: "phantom_membrane"
+    cmd: 5025
+    lore: ["Hilo fino y resistente."]
+    rareza: "poco_comun"
+    valor: 15
+    custom_data: {rz_item: "seda"}
+  tela_lana:
+    nombre: "Tela de lana"
+    categoria: "material"
+    base: "leather"
+    cmd: 5026
+    lore: ["Tejido grueso."]
+    rareza: "comun"
+    valor: 4
+    custom_data: {rz_item: "tela_lana"}
+  madera_noble:
+    nombre: "Madera noble"
+    categoria: "material"
+    base: "armadillo_scute"
+    cmd: 5027
+    lore: ["Veta densa y flexible."]
+    rareza: "poco_comun"
+    valor: 12
+    custom_data: {rz_item: "madera_noble"}
+  hilo:
+    nombre: "Hilo reforzado"
+    categoria: "material"
+    base: "feather"
+    cmd: 5028
+    lore: ["Para coser y ensamblar."]
+    rareza: "comun"
+    valor: 2
+    custom_data: {rz_item: "hilo"}
+  remaches:
+    nombre: "Remaches"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5029
+    lore: ["Pequeños y resistentes."]
+    rareza: "comun"
+    valor: 3
+    custom_data: {rz_item: "remaches"}
+  empunadura:
+    nombre: "Empuñadura"
+    categoria: "material"
+    base: "stick"
+    cmd: 5030
+    lore: ["Para armas de hoja."]
+    rareza: "comun"
+    valor: 8
+    custom_data: {rz_item: "empunadura"}
+  hoja_sin_pulir:
+    nombre: "Hoja sin pulir"
+    categoria: "material"
+    base: "flint"
+    cmd: 5031
+    lore: ["Falta el pulido."]
+    rareza: "comun"
+    valor: 10
+    custom_data: {rz_item: "hoja_sin_pulir"}
+  molde_espada:
+    nombre: "Molde de espada"
+    categoria: "material"
+    base: "clay_ball"
+    cmd: 5032
+    lore: ["Molde de arcilla cocida."]
+    rareza: "comun"
+    valor: 20
+    custom_data: {rz_item: "molde_espada"}
+  molde_hacha:
+    nombre: "Molde de hacha"
+    categoria: "material"
+    base: "clay_ball"
+    cmd: 5033
+    lore: ["Molde de arcilla cocida."]
+    rareza: "comun"
+    valor: 20
+    custom_data: {rz_item: "molde_hacha"}
+  molde_lanza:
+    nombre: "Molde de lanza"
+    categoria: "material"
+    base: "clay_ball"
+    cmd: 5034
+    lore: ["Molde de arcilla cocida."]
+    rareza: "comun"
+    valor: 20
+    custom_data: {rz_item: "molde_lanza"}
+  molde_maza:
+    nombre: "Molde de maza"
+    categoria: "material"
+    base: "clay_ball"
+    cmd: 5035
+    lore: ["Molde de arcilla cocida."]
+    rareza: "comun"
+    valor: 20
+    custom_data: {rz_item: "molde_maza"}
+  molde_daga:
+    nombre: "Molde de daga"
+    categoria: "material"
+    base: "clay_ball"
+    cmd: 5036
+    lore: ["Molde de arcilla cocida."]
+    rareza: "comun"
+    valor: 20
+    custom_data: {rz_item: "molde_daga"}
+  molde_pico:
+    nombre: "Molde de pico"
+    categoria: "material"
+    base: "clay_ball"
+    cmd: 5037
+    lore: ["Molde de arcilla cocida."]
+    rareza: "comun"
+    valor: 20
+    custom_data: {rz_item: "molde_pico"}
+  molde_placa:
+    nombre: "Molde de placa de armadura"
+    categoria: "material"
+    base: "clay_ball"
+    cmd: 5038
+    lore: ["Molde ancho de arcilla refractaria."]
+    rareza: "comun"
+    valor: 25
+    custom_data: {rz_item: "molde_placa"}
+  cristal_pulido:
+    nombre: "Cristal pulido"
+    categoria: "material"
+    base: "glass_bottle"
+    cmd: 5039
+    lore: ["Para joyería fina."]
+    rareza: "poco_comun"
+    valor: 18
+    custom_data: {rz_item: "cristal_pulido"}
+  gema_rubi:
+    nombre: "Rubí"
+    categoria: "material"
+    base: "prismarine_crystals"
+    cmd: 5040
+    lore: ["Gema carmesí."]
+    rareza: "raro"
+    valor: 60
+    custom_data: {rz_item: "gema_rubi"}
+  gema_zafiro:
+    nombre: "Zafiro"
+    categoria: "material"
+    base: "lapis_lazuli"
+    cmd: 5041
+    lore: ["Gema azul profundo."]
+    rareza: "raro"
+    valor: 60
+    custom_data: {rz_item: "gema_zafiro"}
+  gema_esmeralda:
+    nombre: "Esmeralda tallada"
+    categoria: "material"
+    base: "prismarine_shard"
+    cmd: 5042
+    lore: ["Gema verde viva."]
+    rareza: "raro"
+    valor: 60
+    custom_data: {rz_item: "gema_esmeralda"}
+  gema_amatista:
+    nombre: "Amatista tallada"
+    categoria: "material"
+    base: "amethyst_shard"
+    cmd: 5043
+    lore: ["Gema violeta."]
+    rareza: "raro"
+    valor: 60
+    custom_data: {rz_item: "gema_amatista"}
+  gema_topacio:
+    nombre: "Topacio"
+    categoria: "material"
+    base: "glowstone_dust"
+    cmd: 5044
+    lore: ["Gema dorada."]
+    rareza: "raro"
+    valor: 60
+    custom_data: {rz_item: "gema_topacio"}
+  gema_onice:
+    nombre: "Ónice"
+    categoria: "material"
+    base: "coal"
+    cmd: 5045
+    lore: ["Gema negra."]
+    rareza: "raro"
+    valor: 60
+    custom_data: {rz_item: "gema_onice"}
+  piel_descarnada:
+    nombre: "Piel preparada"
+    categoria: "material"
+    base: "rabbit_hide"
+    cmd: 5800
+    lore: ["Piel limpia y flexible.", "Lista para el baño de curtición."]
+    valor: 4
+    rareza: "comun"
+    custom_data: {rz_item: "piel_descarnada"}
+  mat_piel_lobo:
+    nombre: "Piel de lobo"
+    categoria: "material"
+    base: "rabbit_hide"
+    cmd: 5801
+    lore: ["Piel resistente de lobo."]
+    valor: 5
+    rareza: "comun"
+    custom_data: {rz_item: "mat_piel_lobo"}
+  mat_piel_zorro:
+    nombre: "Piel de zorro"
+    categoria: "material"
+    base: "rabbit_hide"
+    cmd: 5802
+    lore: ["Piel ligera y cálida de zorro."]
+    valor: 5
+    rareza: "comun"
+    custom_data: {rz_item: "mat_piel_zorro"}
+  mat_piel_felina:
+    nombre: "Piel felina"
+    categoria: "material"
+    base: "rabbit_hide"
+    cmd: 5803
+    lore: ["Piel fina de felino."]
+    valor: 5
+    rareza: "comun"
+    custom_data: {rz_item: "mat_piel_felina"}
+  mat_piel_bovina:
+    nombre: "Piel bovina"
+    categoria: "material"
+    base: "rabbit_hide"
+    cmd: 5804
+    lore: ["Piel gruesa de ganado bovino."]
+    valor: 5
+    rareza: "comun"
+    custom_data: {rz_item: "mat_piel_bovina"}
+  mat_piel_ovina:
+    nombre: "Piel ovina"
+    categoria: "material"
+    base: "rabbit_hide"
+    cmd: 5805
+    lore: ["Piel suave de oveja."]
+    valor: 5
+    rareza: "comun"
+    custom_data: {rz_item: "mat_piel_ovina"}
+  mat_piel_equina:
+    nombre: "Piel equina"
+    categoria: "material"
+    base: "rabbit_hide"
+    cmd: 5806
+    lore: ["Piel resistente de équido."]
+    valor: 5
+    rareza: "comun"
+    custom_data: {rz_item: "mat_piel_equina"}
+  mat_piel_caprina:
+    nombre: "Piel caprina"
+    categoria: "material"
+    base: "rabbit_hide"
+    cmd: 5807
+    lore: ["Piel flexible de cabra."]
+    valor: 5
+    rareza: "comun"
+    custom_data: {rz_item: "mat_piel_caprina"}
+  cal_viva:
+    nombre: "Cal artesanal"
+    categoria: "material"
+    base: "bone_meal"
+    cmd: 5808
+    lore: ["Cal preparada para el baño de curtición."]
+    valor: 3
+    rareza: "comun"
+    custom_data: {rz_item: "cal_viva"}
+  tanino_vegetal:
+    nombre: "Tanino vegetal"
+    categoria: "material"
+    base: "brown_dye"
+    cmd: 5809
+    lore: ["Extracto vegetal para tratar las fibras de la piel."]
+    valor: 4
+    rareza: "comun"
+    custom_data: {rz_item: "tanino_vegetal"}
+  metal_fundido_cobre:
+    nombre: "Metal fundido: cobre"
+    categoria: "material"
+    base: "magma_cream"
+    cmd: 5810
+    lore: ["Metal cobre al rojo vivo.", "Viértelo en un molde antes de que se enfríe."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 1
+    valor: 8
+    custom_data: {rz_item: "metal_fundido_cobre"}
+  pieza_hoja_espada_cobre:
+    nombre: "Hoja de espada fundida (cobre)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5811
+    lore: ["Pieza de cobre enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 1
+    valor: 12
+    custom_data: {rz_item: "pieza_hoja_espada_cobre"}
+  pieza_cabeza_hacha_cobre:
+    nombre: "Cabeza de hacha fundida (cobre)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5812
+    lore: ["Pieza de cobre enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 1
+    valor: 12
+    custom_data: {rz_item: "pieza_cabeza_hacha_cobre"}
+  pieza_punta_lanza_cobre:
+    nombre: "Punta de lanza fundida (cobre)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5813
+    lore: ["Pieza de cobre enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 1
+    valor: 12
+    custom_data: {rz_item: "pieza_punta_lanza_cobre"}
+  pieza_cabeza_maza_cobre:
+    nombre: "Cabeza de maza fundida (cobre)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5814
+    lore: ["Pieza de cobre enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 1
+    valor: 12
+    custom_data: {rz_item: "pieza_cabeza_maza_cobre"}
+  pieza_hoja_daga_cobre:
+    nombre: "Hoja de daga fundida (cobre)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5815
+    lore: ["Pieza de cobre enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 1
+    valor: 12
+    custom_data: {rz_item: "pieza_hoja_daga_cobre"}
+  pieza_cabeza_pico_cobre:
+    nombre: "Cabeza de pico fundida (cobre)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5816
+    lore: ["Pieza de cobre enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 1
+    valor: 12
+    custom_data: {rz_item: "pieza_cabeza_pico_cobre"}
+  pieza_placa_cobre:
+    nombre: "Placa de armadura fundida (cobre)"
+    categoria: "material"
+    base: "iron_ingot"
+    cmd: 5817
+    lore: ["Pieza de cobre enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 1
+    valor: 12
+    custom_data: {rz_item: "pieza_placa_cobre"}
+  metal_fundido_bronce:
+    nombre: "Metal fundido: bronce"
+    categoria: "material"
+    base: "magma_cream"
+    cmd: 5818
+    lore: ["Metal bronce al rojo vivo.", "Viértelo en un molde antes de que se enfríe."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 5
+    valor: 40
+    custom_data: {rz_item: "metal_fundido_bronce"}
+  pieza_hoja_espada_bronce:
+    nombre: "Hoja de espada fundida (bronce)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5819
+    lore: ["Pieza de bronce enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 5
+    valor: 60
+    custom_data: {rz_item: "pieza_hoja_espada_bronce"}
+  pieza_cabeza_hacha_bronce:
+    nombre: "Cabeza de hacha fundida (bronce)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5820
+    lore: ["Pieza de bronce enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 5
+    valor: 60
+    custom_data: {rz_item: "pieza_cabeza_hacha_bronce"}
+  pieza_punta_lanza_bronce:
+    nombre: "Punta de lanza fundida (bronce)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5821
+    lore: ["Pieza de bronce enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 5
+    valor: 60
+    custom_data: {rz_item: "pieza_punta_lanza_bronce"}
+  pieza_cabeza_maza_bronce:
+    nombre: "Cabeza de maza fundida (bronce)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5822
+    lore: ["Pieza de bronce enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 5
+    valor: 60
+    custom_data: {rz_item: "pieza_cabeza_maza_bronce"}
+  pieza_hoja_daga_bronce:
+    nombre: "Hoja de daga fundida (bronce)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5823
+    lore: ["Pieza de bronce enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 5
+    valor: 60
+    custom_data: {rz_item: "pieza_hoja_daga_bronce"}
+  pieza_cabeza_pico_bronce:
+    nombre: "Cabeza de pico fundida (bronce)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5824
+    lore: ["Pieza de bronce enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 5
+    valor: 60
+    custom_data: {rz_item: "pieza_cabeza_pico_bronce"}
+  pieza_placa_bronce:
+    nombre: "Placa de armadura fundida (bronce)"
+    categoria: "material"
+    base: "iron_ingot"
+    cmd: 5825
+    lore: ["Pieza de bronce enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 5
+    valor: 60
+    custom_data: {rz_item: "pieza_placa_bronce"}
+  metal_fundido_hierro_forjado:
+    nombre: "Metal fundido: hierro forjado"
+    categoria: "material"
+    base: "magma_cream"
+    cmd: 5826
+    lore: ["Metal hierro forjado al rojo vivo.", "Viértelo en un molde antes de que se enfríe."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 10
+    valor: 80
+    custom_data: {rz_item: "metal_fundido_hierro_forjado"}
+  pieza_hoja_espada_hierro_forjado:
+    nombre: "Hoja de espada fundida (hierro forjado)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5827
+    lore: ["Pieza de hierro forjado enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 10
+    valor: 120
+    custom_data: {rz_item: "pieza_hoja_espada_hierro_forjado"}
+  pieza_cabeza_hacha_hierro_forjado:
+    nombre: "Cabeza de hacha fundida (hierro forjado)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5828
+    lore: ["Pieza de hierro forjado enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 10
+    valor: 120
+    custom_data: {rz_item: "pieza_cabeza_hacha_hierro_forjado"}
+  pieza_punta_lanza_hierro_forjado:
+    nombre: "Punta de lanza fundida (hierro forjado)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5829
+    lore: ["Pieza de hierro forjado enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 10
+    valor: 120
+    custom_data: {rz_item: "pieza_punta_lanza_hierro_forjado"}
+  pieza_cabeza_maza_hierro_forjado:
+    nombre: "Cabeza de maza fundida (hierro forjado)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5830
+    lore: ["Pieza de hierro forjado enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 10
+    valor: 120
+    custom_data: {rz_item: "pieza_cabeza_maza_hierro_forjado"}
+  pieza_hoja_daga_hierro_forjado:
+    nombre: "Hoja de daga fundida (hierro forjado)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5831
+    lore: ["Pieza de hierro forjado enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 10
+    valor: 120
+    custom_data: {rz_item: "pieza_hoja_daga_hierro_forjado"}
+  pieza_cabeza_pico_hierro_forjado:
+    nombre: "Cabeza de pico fundida (hierro forjado)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5832
+    lore: ["Pieza de hierro forjado enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 10
+    valor: 120
+    custom_data: {rz_item: "pieza_cabeza_pico_hierro_forjado"}
+  pieza_placa_hierro_forjado:
+    nombre: "Placa de armadura fundida (hierro forjado)"
+    categoria: "material"
+    base: "iron_ingot"
+    cmd: 5833
+    lore: ["Pieza de hierro forjado enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "comun"
+    oficio: "herreria"
+    nivel_req: 10
+    valor: 120
+    custom_data: {rz_item: "pieza_placa_hierro_forjado"}
+  metal_fundido_acero:
+    nombre: "Metal fundido: acero"
+    categoria: "material"
+    base: "magma_cream"
+    cmd: 5834
+    lore: ["Metal acero al rojo vivo.", "Viértelo en un molde antes de que se enfríe."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 20
+    valor: 160
+    custom_data: {rz_item: "metal_fundido_acero"}
+  pieza_hoja_espada_acero:
+    nombre: "Hoja de espada fundida (acero)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5835
+    lore: ["Pieza de acero enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 20
+    valor: 240
+    custom_data: {rz_item: "pieza_hoja_espada_acero"}
+  pieza_cabeza_hacha_acero:
+    nombre: "Cabeza de hacha fundida (acero)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5836
+    lore: ["Pieza de acero enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 20
+    valor: 240
+    custom_data: {rz_item: "pieza_cabeza_hacha_acero"}
+  pieza_punta_lanza_acero:
+    nombre: "Punta de lanza fundida (acero)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5837
+    lore: ["Pieza de acero enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 20
+    valor: 240
+    custom_data: {rz_item: "pieza_punta_lanza_acero"}
+  pieza_cabeza_maza_acero:
+    nombre: "Cabeza de maza fundida (acero)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5838
+    lore: ["Pieza de acero enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 20
+    valor: 240
+    custom_data: {rz_item: "pieza_cabeza_maza_acero"}
+  pieza_hoja_daga_acero:
+    nombre: "Hoja de daga fundida (acero)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5839
+    lore: ["Pieza de acero enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 20
+    valor: 240
+    custom_data: {rz_item: "pieza_hoja_daga_acero"}
+  pieza_cabeza_pico_acero:
+    nombre: "Cabeza de pico fundida (acero)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5840
+    lore: ["Pieza de acero enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 20
+    valor: 240
+    custom_data: {rz_item: "pieza_cabeza_pico_acero"}
+  pieza_placa_acero:
+    nombre: "Placa de armadura fundida (acero)"
+    categoria: "material"
+    base: "iron_ingot"
+    cmd: 5841
+    lore: ["Pieza de acero enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 20
+    valor: 240
+    custom_data: {rz_item: "pieza_placa_acero"}
+  metal_fundido_plata:
+    nombre: "Metal fundido: plata"
+    categoria: "material"
+    base: "magma_cream"
+    cmd: 5842
+    lore: ["Metal plata al rojo vivo.", "Viértelo en un molde antes de que se enfríe."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 25
+    valor: 200
+    custom_data: {rz_item: "metal_fundido_plata"}
+  pieza_hoja_espada_plata:
+    nombre: "Hoja de espada fundida (plata)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5843
+    lore: ["Pieza de plata enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 25
+    valor: 300
+    custom_data: {rz_item: "pieza_hoja_espada_plata"}
+  pieza_cabeza_hacha_plata:
+    nombre: "Cabeza de hacha fundida (plata)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5844
+    lore: ["Pieza de plata enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 25
+    valor: 300
+    custom_data: {rz_item: "pieza_cabeza_hacha_plata"}
+  pieza_punta_lanza_plata:
+    nombre: "Punta de lanza fundida (plata)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5845
+    lore: ["Pieza de plata enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 25
+    valor: 300
+    custom_data: {rz_item: "pieza_punta_lanza_plata"}
+  pieza_cabeza_maza_plata:
+    nombre: "Cabeza de maza fundida (plata)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5846
+    lore: ["Pieza de plata enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 25
+    valor: 300
+    custom_data: {rz_item: "pieza_cabeza_maza_plata"}
+  pieza_hoja_daga_plata:
+    nombre: "Hoja de daga fundida (plata)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5847
+    lore: ["Pieza de plata enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 25
+    valor: 300
+    custom_data: {rz_item: "pieza_hoja_daga_plata"}
+  pieza_cabeza_pico_plata:
+    nombre: "Cabeza de pico fundida (plata)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5848
+    lore: ["Pieza de plata enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 25
+    valor: 300
+    custom_data: {rz_item: "pieza_cabeza_pico_plata"}
+  pieza_placa_plata:
+    nombre: "Placa de armadura fundida (plata)"
+    categoria: "material"
+    base: "iron_ingot"
+    cmd: 5849
+    lore: ["Pieza de plata enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "poco_comun"
+    oficio: "herreria"
+    nivel_req: 25
+    valor: 300
+    custom_data: {rz_item: "pieza_placa_plata"}
+  metal_fundido_acero_negro:
+    nombre: "Metal fundido: acero negro"
+    categoria: "material"
+    base: "magma_cream"
+    cmd: 5850
+    lore: ["Metal acero negro al rojo vivo.", "Viértelo en un molde antes de que se enfríe."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    valor: 240
+    custom_data: {rz_item: "metal_fundido_acero_negro"}
+  pieza_hoja_espada_acero_negro:
+    nombre: "Hoja de espada fundida (acero negro)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5851
+    lore: ["Pieza de acero negro enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    valor: 360
+    custom_data: {rz_item: "pieza_hoja_espada_acero_negro"}
+  pieza_cabeza_hacha_acero_negro:
+    nombre: "Cabeza de hacha fundida (acero negro)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5852
+    lore: ["Pieza de acero negro enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    valor: 360
+    custom_data: {rz_item: "pieza_cabeza_hacha_acero_negro"}
+  pieza_punta_lanza_acero_negro:
+    nombre: "Punta de lanza fundida (acero negro)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5853
+    lore: ["Pieza de acero negro enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    valor: 360
+    custom_data: {rz_item: "pieza_punta_lanza_acero_negro"}
+  pieza_cabeza_maza_acero_negro:
+    nombre: "Cabeza de maza fundida (acero negro)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5854
+    lore: ["Pieza de acero negro enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    valor: 360
+    custom_data: {rz_item: "pieza_cabeza_maza_acero_negro"}
+  pieza_hoja_daga_acero_negro:
+    nombre: "Hoja de daga fundida (acero negro)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5855
+    lore: ["Pieza de acero negro enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    valor: 360
+    custom_data: {rz_item: "pieza_hoja_daga_acero_negro"}
+  pieza_cabeza_pico_acero_negro:
+    nombre: "Cabeza de pico fundida (acero negro)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5856
+    lore: ["Pieza de acero negro enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    valor: 360
+    custom_data: {rz_item: "pieza_cabeza_pico_acero_negro"}
+  pieza_placa_acero_negro:
+    nombre: "Placa de armadura fundida (acero negro)"
+    categoria: "material"
+    base: "iron_ingot"
+    cmd: 5857
+    lore: ["Pieza de acero negro enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "raro"
+    oficio: "herreria"
+    nivel_req: 30
+    valor: 360
+    custom_data: {rz_item: "pieza_placa_acero_negro"}
+  metal_fundido_mithril:
+    nombre: "Metal fundido: mithril"
+    categoria: "material"
+    base: "magma_cream"
+    cmd: 5858
+    lore: ["Metal mithril al rojo vivo.", "Viértelo en un molde antes de que se enfríe."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 40
+    valor: 320
+    custom_data: {rz_item: "metal_fundido_mithril"}
+  pieza_hoja_espada_mithril:
+    nombre: "Hoja de espada fundida (mithril)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5859
+    lore: ["Pieza de mithril enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 40
+    valor: 480
+    custom_data: {rz_item: "pieza_hoja_espada_mithril"}
+  pieza_cabeza_hacha_mithril:
+    nombre: "Cabeza de hacha fundida (mithril)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5860
+    lore: ["Pieza de mithril enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 40
+    valor: 480
+    custom_data: {rz_item: "pieza_cabeza_hacha_mithril"}
+  pieza_punta_lanza_mithril:
+    nombre: "Punta de lanza fundida (mithril)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5861
+    lore: ["Pieza de mithril enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 40
+    valor: 480
+    custom_data: {rz_item: "pieza_punta_lanza_mithril"}
+  pieza_cabeza_maza_mithril:
+    nombre: "Cabeza de maza fundida (mithril)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5862
+    lore: ["Pieza de mithril enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 40
+    valor: 480
+    custom_data: {rz_item: "pieza_cabeza_maza_mithril"}
+  pieza_hoja_daga_mithril:
+    nombre: "Hoja de daga fundida (mithril)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5863
+    lore: ["Pieza de mithril enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 40
+    valor: 480
+    custom_data: {rz_item: "pieza_hoja_daga_mithril"}
+  pieza_cabeza_pico_mithril:
+    nombre: "Cabeza de pico fundida (mithril)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5864
+    lore: ["Pieza de mithril enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 40
+    valor: 480
+    custom_data: {rz_item: "pieza_cabeza_pico_mithril"}
+  pieza_placa_mithril:
+    nombre: "Placa de armadura fundida (mithril)"
+    categoria: "material"
+    base: "iron_ingot"
+    cmd: 5865
+    lore: ["Pieza de mithril enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "epico"
+    oficio: "herreria"
+    nivel_req: 40
+    valor: 480
+    custom_data: {rz_item: "pieza_placa_mithril"}
+  metal_fundido_adamantita:
+    nombre: "Metal fundido: adamantita"
+    categoria: "material"
+    base: "magma_cream"
+    cmd: 5866
+    lore: ["Metal adamantita al rojo vivo.", "Viértelo en un molde antes de que se enfríe."]
+    rareza: "legendario"
+    oficio: "herreria"
+    nivel_req: 50
+    valor: 400
+    custom_data: {rz_item: "metal_fundido_adamantita"}
+  pieza_hoja_espada_adamantita:
+    nombre: "Hoja de espada fundida (adamantita)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5867
+    lore: ["Pieza de adamantita enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "legendario"
+    oficio: "herreria"
+    nivel_req: 50
+    valor: 600
+    custom_data: {rz_item: "pieza_hoja_espada_adamantita"}
+  pieza_cabeza_hacha_adamantita:
+    nombre: "Cabeza de hacha fundida (adamantita)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5868
+    lore: ["Pieza de adamantita enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "legendario"
+    oficio: "herreria"
+    nivel_req: 50
+    valor: 600
+    custom_data: {rz_item: "pieza_cabeza_hacha_adamantita"}
+  pieza_punta_lanza_adamantita:
+    nombre: "Punta de lanza fundida (adamantita)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5869
+    lore: ["Pieza de adamantita enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "legendario"
+    oficio: "herreria"
+    nivel_req: 50
+    valor: 600
+    custom_data: {rz_item: "pieza_punta_lanza_adamantita"}
+  pieza_cabeza_maza_adamantita:
+    nombre: "Cabeza de maza fundida (adamantita)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5870
+    lore: ["Pieza de adamantita enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "legendario"
+    oficio: "herreria"
+    nivel_req: 50
+    valor: 600
+    custom_data: {rz_item: "pieza_cabeza_maza_adamantita"}
+  pieza_hoja_daga_adamantita:
+    nombre: "Hoja de daga fundida (adamantita)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5871
+    lore: ["Pieza de adamantita enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "legendario"
+    oficio: "herreria"
+    nivel_req: 50
+    valor: 600
+    custom_data: {rz_item: "pieza_hoja_daga_adamantita"}
+  pieza_cabeza_pico_adamantita:
+    nombre: "Cabeza de pico fundida (adamantita)"
+    categoria: "material"
+    base: "iron_nugget"
+    cmd: 5872
+    lore: ["Pieza de adamantita enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "legendario"
+    oficio: "herreria"
+    nivel_req: 50
+    valor: 600
+    custom_data: {rz_item: "pieza_cabeza_pico_adamantita"}
+  pieza_placa_adamantita:
+    nombre: "Placa de armadura fundida (adamantita)"
+    categoria: "material"
+    base: "iron_ingot"
+    cmd: 5873
+    lore: ["Pieza de adamantita enfriada en molde.", "Componente para ensamblar equipo."]
+    rareza: "legendario"
+    oficio: "herreria"
+    nivel_req: 50
+    valor: 600
+    custom_data: {rz_item: "pieza_placa_adamantita"}
