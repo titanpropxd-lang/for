@@ -72,6 +72,15 @@ public final class CastingListener implements Listener {
             ItemStack result = plugin.items.basic(output, 1);
             if (player.isOnline()) {
                 plugin.forge.give(player, result);
+                // Clima de la forja: con tormenta hay una probabilidad de que el rayo "temple" la pieza y salga una extra.
+                org.bukkit.World cw = player.getWorld();
+                if (plugin.getConfig().getBoolean("clima.activo", true) && cw.isThundering()
+                        && java.util.concurrent.ThreadLocalRandom.current().nextDouble() < plugin.getConfig().getDouble("clima.tormenta_prob_especial", 0.10)) {
+                    plugin.forge.give(player, plugin.items.basic(output, 1));
+                    cw.spawnParticle(org.bukkit.Particle.ELECTRIC_SPARK, player.getLocation().add(0, 1.2, 0), 40, .4, .5, .4, .1);
+                    player.playSound(player.getLocation(), Sound.ENTITY_LIGHTNING_BOLT_THUNDER, 0.6f, 1.6f);
+                    plugin.lang.send(player, "fundicion.rayo");
+                }
                 player.playSound(player.getLocation(), Sound.BLOCK_AMETHYST_BLOCK_CHIME, 0.8f, 1.4f);
                 plugin.lang.send(player, "fundicion.enfriado", "pieza", plugin.items.get(output).nombre);
             } else if (at.getWorld() != null) {

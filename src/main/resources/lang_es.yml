@@ -255,6 +255,7 @@ curticion:
 fundicion:
   ya_enfriando: <yellow>Ya estás enfriando una colada. Espera a terminar.
   vertido: <gold>Has vertido el metal en el molde. No lo muevas mientras se enfría...
+  rayo: <light_purple>¡Un rayo templó la pieza! Sale una extra.
   enfriado: '<green>La pieza se ha enfriado: {pieza}. Ya puedes usarla para fabricar equipo.'
   fisica:
     vacio: '<gray>El horno está vacío. Echa lingotes y carbón.'

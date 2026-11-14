@@ -133,7 +133,18 @@ public final class FoundryManager implements Listener {
         int seconds = cfgInt("calentamiento_seg." + f.tier, 12);
         double speed = "fundicion_t2".equals(f.station) ? plugin.getConfig().getDouble("fundicion.velocidad_t2", 1.5) : 1.0;
         double load = 0.6 + 0.1 * f.portions;
-        return Math.max(20, (int) (seconds * 20 * load / Math.max(0.1, speed)));
+        return Math.max(20, (int) (seconds * 20 * load * weatherMult(f) / Math.max(0.1, speed)));
+    }
+
+    /** Clima de la forja: con lluvia o tormenta la fundición tarda más (solo si la estación está al aire libre). */
+    private double weatherMult(Foundry f) {
+        if (!plugin.getConfig().getBoolean("clima.activo", true)) return 1.0;
+        World w = Bukkit.getWorld(f.world);
+        if (w == null) return 1.0;
+        if (plugin.getConfig().getBoolean("clima.solo_al_aire_libre", true) && w.getHighestBlockYAt(f.x, f.z) > f.y + 1) return 1.0;
+        if (w.isThundering()) return Math.max(1.0, plugin.getConfig().getDouble("clima.tormenta_mult", 1.35));
+        if (w.hasStorm()) return Math.max(1.0, plugin.getConfig().getDouble("clima.lluvia_mult", 1.2));
+        return 1.0;
     }
 
     private int coolTicks(String tier) {

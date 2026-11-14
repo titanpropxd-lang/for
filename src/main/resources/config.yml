@@ -153,6 +153,12 @@ mensajes:
 # ==========================  METALURGIA FÍSICA  ==========================
 # El horno de fundición (estaciones fundicion_t1 y fundicion_t2) funciona en el mundo: lingote -> crisol, carbón -> calor,
 # molde -> junto al crisol, mano vacía -> verter, esperar a que se enfríe y recoger la pieza con la mano.
+clima:                         # clima de la forja
+  activo: true
+  solo_al_aire_libre: true     # solo afecta si no hay techo encima de la fundición
+  lluvia_mult: 1.2             # la fundición tarda 20 % más con lluvia
+  tormenta_mult: 1.35          # y 35 % más con tormenta
+  tormenta_prob_especial: 0.10 # con tormenta, 10 % de que el rayo temple la pieza y salga una extra
 fundicion:
   fisica: true                 # false = vuelve al menú antiguo de "Metal líquido"
   capacidad: 4                 # lingotes que caben en el crisol
